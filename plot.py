@@ -193,7 +193,7 @@ def main():
     # Nice display name for the data source
     source_label = {
         "dr": "DR's", "altinget": "Altingets", "tv2": "TV 2's", "jp": "JP's",
-        "combined": "kombineret (DR + Altinget)",
+        "combined": "kombineret (DR + Altinget + TV 2)",
     }.get(source_name.lower(), source_name + "'s")
     fig.text(0.05, 0.97, "Folketingets partier på to akser",
              ha="left", va="top", fontsize=22, fontweight="bold", color="#111111")

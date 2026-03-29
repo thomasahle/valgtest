@@ -2,8 +2,14 @@
 """
 Fit a 2D multidimensional GRM to the kandidattest data and plot a political compass.
 
+Usage:
+  python analyze.py [data_dir]
+
+  data_dir  directory containing questions.json and candidates.json
+            (default: current directory, i.e. DR data)
+
 Requires:
-  questions.json, candidates.json  (from scrape.py)
+  questions.json, candidates.json  (from scrape.py or scrape_altinget.py)
   pip install girth numpy matplotlib scipy
 """
 
@@ -41,9 +47,10 @@ PARTY_COLORS = {
 MIN_ANSWERS = 20  # drop candidates with fewer answered questions
 
 
-def load_data():
-    questions = json.loads(Path("questions.json").read_text())
-    candidates = json.loads(Path("candidates.json").read_text())
+def load_data(data_dir=Path(".")):
+    data_dir = Path(data_dir)
+    questions = json.loads((data_dir / "questions.json").read_text())
+    candidates = json.loads((data_dir / "candidates.json").read_text())
 
     # Map QuestionID → index (API uses "Id", candidate answers use "QuestionID")
     qids = [q.get("Id") or q.get("QuestionID") or q.get("id") for q in questions]
@@ -134,8 +141,11 @@ def varimax(loadings, max_iter=1000, tol=1e-6):
 
 
 def main():
-    print("Loading data...")
-    data, names, parties, questions = load_data()
+    data_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(".")
+    out_dir = data_dir
+
+    print(f"Loading data from {data_dir} ...")
+    data, names, parties, kept_questions = load_data(data_dir)
 
     print("Fitting 2D multidimensional GRM (this may take a minute)...")
     results = multidimensional_grm_mml(data, 2, {
@@ -153,25 +163,36 @@ def main():
 
     # Save abilities to CSV
     import csv
-    with open("abilities.csv", "w", newline="") as f:
+    with open(out_dir / "abilities.csv", "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["name", "party", "dim1", "dim2"])
         for i, (name, party) in enumerate(zip(names, parties)):
             w.writerow([name, party, abilities_rot[0, i], abilities_rot[1, i]])
-    print("Saved abilities.csv")
+    print(f"Saved {out_dir}/abilities.csv")
+
+    # Save discrimination loadings (varimax-rotated) to CSV
+    with open(out_dir / "discrimination.csv", "w", newline="") as f:
+        w = csv.writer(f)
+        w.writerow(["question_id", "title", "question", "loading_dim1", "loading_dim2"])
+        for i, q in enumerate(kept_questions):
+            w.writerow([
+                q.get("Id"), q.get("Title"), q.get("Question"),
+                rotated_disc[i, 0], rotated_disc[i, 1],
+            ])
+    print(f"Saved {out_dir}/discrimination.csv")
 
     # Print top questions loading on each dimension
     print("\nTop 5 questions loading on Dim 1 (after varimax):")
     order1 = np.argsort(np.abs(rotated_disc[:, 0]))[::-1]
     for idx in order1[:5]:
-        q = questions[idx]
+        q = kept_questions[idx]
         title = q.get("Title") or q.get("title") or str(q.get("Id") or q.get("QuestionID"))
         print(f"  {rotated_disc[idx, 0]:.3f}  {title}")
 
     print("\nTop 5 questions loading on Dim 2 (after varimax):")
     order2 = np.argsort(np.abs(rotated_disc[:, 1]))[::-1]
     for idx in order2[:5]:
-        q = questions[idx]
+        q = kept_questions[idx]
         title = q.get("Title") or q.get("title") or str(q.get("Id") or q.get("QuestionID"))
         print(f"  {rotated_disc[idx, 1]:.3f}  {title}")
 
@@ -210,11 +231,13 @@ def main():
     ax.axvline(0, color="black", linewidth=0.5, zorder=0)
     ax.set_xlabel("Latent Dimension 1", fontsize=13)
     ax.set_ylabel("Latent Dimension 2", fontsize=13)
-    ax.set_title("Politisk kompas – DR Kandidattest (2D IRT/GRM)", fontsize=15)
+    source_name = data_dir.name if data_dir != Path(".") else "DR"
+    ax.set_title(f"Politisk kompas – {source_name} Kandidattest (2D IRT/GRM)", fontsize=15)
     ax.set_aspect("equal")
     plt.tight_layout()
-    plt.savefig("political_compass.png", dpi=150)
-    print("\nSaved political_compass.png")
+    out_path = out_dir / "political_compass_raw.png"
+    plt.savefig(out_path, dpi=150)
+    print(f"\nSaved {out_path}")
 
 
 if __name__ == "__main__":
