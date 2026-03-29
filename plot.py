@@ -65,6 +65,31 @@ parties = [r["party"] for r in rows]
 xs = np.array([float(r["dim1"]) for r in rows])
 ys = np.array([float(r["dim2"]) for r in rows])
 
+# ── Rotate to conventional axes ───────────────────────────────────────────────
+# x-axis: Enhedslisten (left) → Liberal Alliance (right)
+# y-axis: Dansk Folkeparti (bottom) → Radikale Venstre (top)
+def party_mean(name):
+    mask = np.array([p == name for p in parties])
+    return np.array([xs[mask].mean(), ys[mask].mean()])
+
+enh = party_mean("Enhedslisten \u2013 De Rød-Grønne")
+la  = party_mean("Liberal Alliance")
+df  = party_mean("Dansk Folkeparti")
+rad = party_mean("Radikale Venstre")
+
+# New x-axis: direction from Enhedslisten to Liberal Alliance
+x_dir = la - enh
+x_dir /= np.linalg.norm(x_dir)
+# New y-axis: direction from DF to Radikale, orthogonalised against x_dir
+y_dir = rad - df
+y_dir -= np.dot(y_dir, x_dir) * x_dir
+y_dir /= np.linalg.norm(y_dir)
+
+# Rotation matrix (rows = new basis vectors)
+R = np.array([x_dir, y_dir])
+coords = R @ np.array([xs, ys])
+xs, ys = coords[0], coords[1]
+
 fig, ax = plt.subplots(figsize=(12, 12))
 
 unique_parties = sorted(set(parties))
