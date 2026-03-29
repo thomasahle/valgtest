@@ -85,22 +85,24 @@ The top 10 splits roughly evenly between economic questions (property tax, publi
 
 #### Dim 2 — Reformisme / Populisme
 
-Top 10 questions by absolute loading on Dim 2:
+Top 10 questions by absolute loading on Dim 2 (Dim 1 loading shown for context):
 
-| Loading | Topic | Question |
-|---:|---|---|
-| +2.34 | Økonomi | Folkepensionsalderen skal fortsat stige med levealderen |
-| −1.51 | Økonomi | Store Bededag skal genindføres som helligdag |
-| +1.68 | Økonomi | Åbn for mere udenlandsk arbejdskraft fra lande uden for Europa |
-| +1.50 | Regeringsdannelse | Det vil være bedst med en regering hen over midten |
-| −1.28 | Økonomi | Danmark bruger for mange penge på at støtte Ukraine |
-| −1.22 | Transport | Afgifter på benzin og diesel skal sænkes |
-| −1.14 | Skat | Skatten for de højeste indkomster skal sættes op |
-| −1.09 | Økonomi | Politikerne skal arbejde for at sætte arbejdstiden ned |
-| +1.09 | Social | OK at ulighed stiger, så længe alle bliver rigere |
-| +1.07 | Social | Vigtigere at skaffe ansatte til ældrepleje end at de taler dansk |
+| Dim 2 | Dim 1 | Topic | Question |
+|---:|---:|---|---|
+| +2.34 | −1.57 | Økonomi | Folkepensionsalderen skal fortsat stige med levealderen |
+| −1.51 | −0.43 | Økonomi | Store Bededag skal genindføres som helligdag |
+| +1.68 | +1.50 | Økonomi | Åbn for mere udenlandsk arbejdskraft fra lande uden for Europa |
+| +1.50 | +0.54 | Regeringsdannelse | Det vil være bedst med en regering hen over midten |
+| −1.28 | −0.54 | Økonomi | Danmark bruger for mange penge på at støtte Ukraine |
+| −1.22 | −2.88 | Transport | Afgifter på benzin og diesel skal sænkes |
+| −1.14 | +3.11 | Skat | Skatten for de højeste indkomster skal sættes op |
+| −1.09 | +2.67 | Økonomi | Politikerne skal arbejde for at sætte arbejdstiden ned |
+| +1.09 | −3.16 | Social | OK at ulighed stiger, så længe alle bliver rigere |
+| +1.07 | +1.07 | Social | Vigtigere at skaffe ansatte til ældrepleje end at de taler dansk |
 
-After controlling for Dim 1, the second axis is defined by pension reform, the Store Bededag holiday, Ukraine aid, cross-party government, and foreign labour. These cluster around a reformist/technocratic vs populist/protest dimension. High Dim 2 = support for pension reform, Ukraine aid, cross-party governance, and foreign labour (Moderaterne, Radikale, Liberal Alliance). Low Dim 2 = opposition to these (Dansk Folkeparti, Danmarksdemokraterne, Borgernes Parti).
+Items with large Dim 1 loadings (income tax, working hours, inequality, benzin) are cross-loading — they appear here because there is residual variance on Dim 2 not explained by Dim 1. For example, "Skatten for de højeste indkomster" primarily loads on Dim 1 (+3.11) as an economic left–right question, but after controlling for that, candidates who favour higher top taxes also tend to score lower on Dim 2 (more populist). This makes sense: the reformist parties (Liberal Alliance, Moderaterne) oppose raising top income taxes, while populist parties on both sides are more sympathetic.
+
+The questions that primarily load on Dim 2 (small Dim 1) are pension reform, Store Bededag, Ukraine, and cross-party government — none of which are straightforwardly economic or immigration questions. This is the reformist/technocratic vs populist/protest dimension.
 
 Notably, Dansk Folkeparti is a strong outlier on Dim 2 (very low), sitting far from the rest of the right wing — captured here by their opposition to pension reform and Ukraine support rather than immigration stance (which loads on Dim 1, shared with most of the right).
 
