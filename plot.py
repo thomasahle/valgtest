@@ -1,7 +1,22 @@
 #!/usr/bin/env python3
-"""Re-plot the political compass from abilities.csv (no refitting needed)."""
+"""
+Re-plot the political compass from abilities.csv (no refitting needed).
+
+Usage:
+  python plot.py [data_dir]
+
+  data_dir  directory containing abilities.csv (output of analyze.py)
+            (default: current directory, i.e. DR data)
+
+Axes are anchored on well-known Danish parties:
+  X (Økonomi):     Enhedslisten (left) ← → Liberal Alliance (right)
+  Y (Nationalisme): Radikale Venstre (internationalist) ↑ … ↓ Dansk Folkeparti (nationalist)
+"""
 
 import csv
+import sys
+from pathlib import Path
+
 import numpy as np
 import matplotlib
 matplotlib.use("Agg")
@@ -24,7 +39,7 @@ PARTY_COLORS = {
     "Uden for parti":                             "#999999",
 }
 
-# (label, x_offset, y_offset, ha)
+# (display_label, x_offset, y_offset, ha)  –  None skips the label
 LABEL_OPTS = {
     "Socialdemokratiet":                          ("Social-\ndemokratiet",   0.0,  0.13, "center"),
     "Radikale Venstre":                           ("Radikale\nVenstre",      0.0,  0.13, "center"),
@@ -60,122 +75,138 @@ def confidence_ellipse(ax, x, y, color, n_std=1.0, alpha=0.18):
     ax.add_patch(ell)
 
 
-rows = list(csv.DictReader(open("abilities.csv")))
-names   = [r["name"]  for r in rows]
-parties = [r["party"] for r in rows]
-xs = np.array([float(r["dim1"]) for r in rows])
-ys = np.array([float(r["dim2"]) for r in rows])
+def party_mean(parties, xs, ys, name):
+    mask = np.array([p == name for p in parties])
+    if mask.sum() == 0:
+        return None
+    return np.array([xs[mask].mean(), ys[mask].mean()])
 
-# ── Theoretically grounded rotation ──────────────────────────────────────────
-# Axis 1 (x) anchored on pure redistribution/tax/welfare questions:
-#   Q1270 boligskat op (+), Q1285 topskat op (+), Q1305 overførselsindkomst op (+),
-#   Q1288 ulighed okay (−), Q1289 udligning kommuner (+), Q1306 kortere arbejdstid (+)
-# The least-squares direction of this composite in the 2D IRT space is [+0.932, −0.363].
-#
-# Axis 2 (y) is the orthogonal complement. After controlling for economy, it is
-# driven by: pension reform, foreign labour, Ukraine support, Store Bededag,
-# development aid — a Nationalist/Protectionist ↔ Internationalist/Reform axis.
-# Negated so that nationalist parties (DF, DD, BP) score high (top of plot).
-#
-# Both directions are pre-computed from the IRT output — see the analysis in
-# the repo README for the full derivation.
 
-ECON_DIR = np.array([+0.932, -0.363])   # left (Enhedslisten) → right (LA)
-NAT_DIR  = np.array([-0.363, -0.932])   # high = nationalist/protectionist (DF)
+def compute_rotation(parties, xs, ys):
+    """
+    Use the varimax axes directly — no additional rotation.
+    Just fix sign conventions so the plot reads intuitively:
+      - flip dim1 so right-wing parties (LA, Venstre) are on the right
+      - flip dim2 so DF is at the top and Radikale is at the bottom
+    """
+    # Check sign of dim1: Enhedslisten should be negative (left), LA positive (right)
+    enh = party_mean(parties, xs, ys, "Enhedslisten \u2013 De Rød-Grønne")
+    la  = party_mean(parties, xs, ys, "Liberal Alliance")
+    s1 = -1.0 if (enh is not None and la is not None and enh[0] > la[0]) else 1.0
 
-R = np.array([ECON_DIR, NAT_DIR])
-coords = R @ np.array([xs, ys])
-xs, ys = coords[0], coords[1]
+    # Check sign of dim2: DF should be positive (top), Radikale negative (bottom)
+    df  = party_mean(parties, xs, ys, "Dansk Folkeparti")
+    rad = party_mean(parties, xs, ys, "Radikale Venstre")
+    s2 = -1.0 if (df is not None and rad is not None and df[1] < rad[1]) else 1.0
 
-# ── Figure setup ──────────────────────────────────────────────────────────────
-fig, ax = plt.subplots(figsize=(11, 11), facecolor="white")
-ax.set_facecolor("white")
+    return np.diag([s1, s2])
 
-# Remove all spines
-for spine in ax.spines.values():
-    spine.set_visible(False)
-ax.tick_params(left=False, bottom=False, labelleft=False, labelbottom=False)
 
-# Light grid
-ax.grid(True, color="#dddddd", linewidth=0.8, zorder=0)
-ax.set_axisbelow(True)
+def main():
+    data_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(".")
+    source_name = data_dir.name if data_dir != Path(".") else "DR"
 
-# Center lines
-ax.axhline(0, color="#aaaaaa", linewidth=1.0, zorder=1)
-ax.axvline(0, color="#aaaaaa", linewidth=1.0, zorder=1)
+    rows = list(csv.DictReader(open(data_dir / "abilities.csv")))
+    names   = [r["name"]  for r in rows]
+    parties = [r["party"] for r in rows]
+    xs = np.array([float(r["dim1"]) for r in rows])
+    ys = np.array([float(r["dim2"]) for r in rows])
 
-# ── Data ──────────────────────────────────────────────────────────────────────
-unique_parties = sorted(set(parties))
+    # ── Axis rotation anchored on known parties ───────────────────────────────
+    R = compute_rotation(parties, xs, ys)
+    coords = R @ np.array([xs, ys])
+    xs, ys = coords[0], coords[1]
 
-# Individual candidates (small dots)
-for i in range(len(rows)):
-    color = PARTY_COLORS.get(parties[i], "#999999")
-    ax.scatter(xs[i], ys[i], c=color, s=14, alpha=0.35, linewidths=0, zorder=2)
+    # ── Figure setup ──────────────────────────────────────────────────────────
+    fig, ax = plt.subplots(figsize=(11, 11), facecolor="white")
+    ax.set_facecolor("white")
 
-# Ellipses
-for party in unique_parties:
-    mask = np.array([p == party for p in parties])
-    if mask.sum() < 3:
-        continue
-    color = PARTY_COLORS.get(party, "#999999")
-    confidence_ellipse(ax, xs[mask], ys[mask], color=color, n_std=1.0)
+    for spine in ax.spines.values():
+        spine.set_visible(False)
+    ax.tick_params(left=False, bottom=False, labelleft=False, labelbottom=False)
 
-# Party mean dots + labels
-for party in unique_parties:
-    opts = LABEL_OPTS.get(party)
-    if opts is None:
-        continue
-    label, dx, dy, ha = opts
-    mask = np.array([p == party for p in parties])
-    if mask.sum() < 2:
-        continue
-    color = PARTY_COLORS.get(party, "#999999")
-    mx, my = xs[mask].mean(), ys[mask].mean()
-    ax.scatter(mx, my, c=color, s=220, zorder=5, linewidths=0)
-    va = "bottom" if dy > 0 else ("top" if dy < 0 else "center")
-    ax.text(mx + dx, my + dy, label,
-            fontsize=11, fontweight="bold", color=color,
-            ha=ha, va=va, linespacing=1.2, zorder=6)
+    ax.grid(True, color="#dddddd", linewidth=0.8, zorder=0)
+    ax.set_axisbelow(True)
+    ax.axhline(0, color="#aaaaaa", linewidth=1.0, zorder=1)
+    ax.axvline(0, color="#aaaaaa", linewidth=1.0, zorder=1)
 
-# ── Axis labels ───────────────────────────────────────────────────────────────
-xlim = ax.get_xlim()
-ylim = ax.get_ylim()
+    # ── Data ──────────────────────────────────────────────────────────────────
+    unique_parties = sorted(set(parties))
 
-# Expand limits slightly for labels
-pad = 0.3
-ax.set_xlim(xlim[0] - pad, xlim[1] + pad)
-ax.set_ylim(ylim[0] - pad, ylim[1] + pad)
-xlim = ax.get_xlim()
-ylim = ax.get_ylim()
+    for i in range(len(rows)):
+        color = PARTY_COLORS.get(parties[i], "#999999")
+        ax.scatter(xs[i], ys[i], c=color, s=14, alpha=0.35, linewidths=0, zorder=2)
 
-kw = dict(transform=ax.transData, clip_on=False, va="center")
+    for party in unique_parties:
+        mask = np.array([p == party for p in parties])
+        if mask.sum() < 3:
+            continue
+        color = PARTY_COLORS.get(party, "#999999")
+        confidence_ellipse(ax, xs[mask], ys[mask], color=color, n_std=1.0)
 
-# x-axis: bottom, with direction hints
-ax.text(np.mean(xlim), ylim[0] - 0.15, "Økonomi",
-        ha="center", va="top", fontsize=12, color="#555555", transform=ax.transData, clip_on=False)
-ax.text(xlim[0] + 0.05, ylim[0] - 0.15, "← Venstre",
-        ha="left", va="top", fontsize=10, color="#888888", transform=ax.transData, clip_on=False)
-ax.text(xlim[1] - 0.05, ylim[0] - 0.15, "Højre →",
-        ha="right", va="top", fontsize=10, color="#888888", transform=ax.transData, clip_on=False)
+    for party in unique_parties:
+        opts = LABEL_OPTS.get(party)
+        if opts is None:
+            continue
+        label, dx, dy, ha = opts
+        mask = np.array([p == party for p in parties])
+        if mask.sum() < 2:
+            continue
+        color = PARTY_COLORS.get(party, "#999999")
+        mx, my = xs[mask].mean(), ys[mask].mean()
+        ax.scatter(mx, my, c=color, s=220, zorder=5, linewidths=0)
+        va = "bottom" if dy > 0 else ("top" if dy < 0 else "center")
+        ax.text(mx + dx, my + dy, label,
+                fontsize=11, fontweight="bold", color=color,
+                ha=ha, va=va, linespacing=1.2, zorder=6)
 
-# y-axis: left side, with direction hints
-ax.text(xlim[0] - 0.15, np.mean(ylim), "Nationalisme / Globalisme",
-        ha="right", va="center", fontsize=12, color="#555555",
-        rotation=90, transform=ax.transData, clip_on=False)
-ax.text(xlim[0] - 0.15, ylim[1] - 0.05, "Nationalistisk ↑",
-        ha="right", va="top", fontsize=10, color="#888888",
-        rotation=90, transform=ax.transData, clip_on=False)
-ax.text(xlim[0] - 0.15, ylim[0] + 0.05, "↓ Internationalistisk",
-        ha="right", va="bottom", fontsize=10, color="#888888",
-        rotation=90, transform=ax.transData, clip_on=False)
+    # ── Axis labels ───────────────────────────────────────────────────────────
+    xlim = ax.get_xlim()
+    ylim = ax.get_ylim()
+    pad = 0.3
+    ax.set_xlim(xlim[0] - pad, xlim[1] + pad)
+    ax.set_ylim(ylim[0] - pad, ylim[1] + pad)
+    xlim = ax.get_xlim()
+    ylim = ax.get_ylim()
 
-# ── Title ─────────────────────────────────────────────────────────────────────
-fig.text(0.05, 0.97, "Folketingets partier på to akser",
-         ha="left", va="top", fontsize=22, fontweight="bold", color="#111111")
-fig.text(0.05, 0.935, "Data: DR's kandidattest, FV26  •  2D IRT/GRM model  •  Små prikker = individuelle kandidater",
-         ha="left", va="top", fontsize=9, color="#777777")
+    ax.text(np.mean(xlim), ylim[0] - 0.15, "Økonomi",
+            ha="center", va="top", fontsize=12, color="#555555",
+            transform=ax.transData, clip_on=False)
+    ax.text(xlim[0] + 0.05, ylim[0] - 0.15, "← Venstre",
+            ha="left", va="top", fontsize=10, color="#888888",
+            transform=ax.transData, clip_on=False)
+    ax.text(xlim[1] - 0.05, ylim[0] - 0.15, "Højre →",
+            ha="right", va="top", fontsize=10, color="#888888",
+            transform=ax.transData, clip_on=False)
 
-ax.set_aspect("equal")
-plt.tight_layout(rect=[0, 0, 1, 0.93])
-plt.savefig("political_compass.png", dpi=150, bbox_inches="tight", facecolor="white")
-print("Saved political_compass.png")
+    ax.text(xlim[0] - 0.15, np.mean(ylim), "Nationalisme / Globalisme",
+            ha="right", va="center", fontsize=12, color="#555555",
+            rotation=90, transform=ax.transData, clip_on=False)
+    ax.text(xlim[0] - 0.15, ylim[1] - 0.05, "Nationalistisk ↑",
+            ha="right", va="top", fontsize=10, color="#888888",
+            rotation=90, transform=ax.transData, clip_on=False)
+    ax.text(xlim[0] - 0.15, ylim[0] + 0.05, "↓ Internationalistisk",
+            ha="right", va="bottom", fontsize=10, color="#888888",
+            rotation=90, transform=ax.transData, clip_on=False)
+
+    # ── Title ─────────────────────────────────────────────────────────────────
+    # Nice display name for the data source
+    source_label = {
+        "dr": "DR's", "altinget": "Altingets", "tv2": "TV 2's", "jp": "JP's",
+        "combined": "kombineret (DR + Altinget)",
+    }.get(source_name.lower(), source_name + "'s")
+    fig.text(0.05, 0.97, "Folketingets partier på to akser",
+             ha="left", va="top", fontsize=22, fontweight="bold", color="#111111")
+    fig.text(0.05, 0.935,
+             f"Data: {source_label} kandidattest, FV26  •  2D IRT/GRM model  •  Små prikker = individuelle kandidater",
+             ha="left", va="top", fontsize=9, color="#777777")
+
+    ax.set_aspect("equal")
+    plt.tight_layout(rect=[0, 0, 1, 0.93])
+    out_path = data_dir / "political_compass.png"
+    plt.savefig(out_path, dpi=150, bbox_inches="tight", facecolor="white")
+    print(f"Saved {out_path}")
+
+
+if __name__ == "__main__":
+    main()
