@@ -64,49 +64,47 @@ After varimax, we fix the two sign ambiguities using well-known anchor parties (
 
 ### 5. Question Loadings
 
-The table below shows the varimax-rotated discrimination loadings for all 25 questions (sorted by |loading| on Dim 1). A high absolute loading means that question strongly discriminates along that dimension.
+#### Dim 1 — Omfordeling / Klassisk venstre–højre
 
-| Topic | Question (short) | Dim 1 | Dim 2 |
-|---|---|---:|---:|
-| Økonomi | Skær i støtten til Danmarks Radio | **−3.86** | −0.37 |
-| Skat | Boligskat på stigninger | **+3.80** | −0.45 |
-| Transport | Investér i tog/bus frem for motorveje | **+3.65** | −0.11 |
-| Udlændinge | Udvise kriminelle uden hensyn til konventioner | **−3.56** | −0.70 |
-| Udlændinge | Færre penge til udviklingsbistand | **−3.56** | −0.68 |
-| Social | Større udligning rige/fattige kommuner | +3.52 | −0.73 |
-| Udlændinge | Screen statsborgerskabsansøgere for antidemokratiske holdninger | **−3.48** | −0.75 |
-| Klima | Atomkraft på dansk jord | −2.84 | +0.21 |
-| Transport | Sænk afgifter på benzin/diesel | −2.88 | −1.22 |
-| Skole | Lettere at smide elever ud | −2.94 | −0.14 |
-| Social | OK at ulighed stiger, så alle bliver rigere | **−3.16** | +1.09 |
-| Skat | Højeste indkomster: sæt skatten op | +3.11 | −1.14 |
-| Klima | Forbyd sprøjtning på sårbare drikkevandsområder | +2.56 | −0.02 |
-| Økonomi | Sæt arbejdstiden ned | +2.67 | −1.09 |
-| Klima | Hensyn til lokalbefolkning ved solceller | −2.21 | −0.65 |
-| Økonomi | Mere udenlandsk arbejdskraft udefra Europa | +1.50 | **+1.68** |
-| Økonomi | Folkepensionsalderen skal fortsat stige | −1.57 | **+2.34** |
-| Regeringsdannelse | Regering hen over midten | +0.54 | **+1.50** |
-| Social | Ansatte i ældrepleje behøver ikke tale dansk | +1.07 | +1.07 |
-| Sundhed | Sæt prisen på cigaretter markant op | +1.21 | +0.50 |
-| Social | Større udligning rige/fattige kommuner | +1.03 | −0.58 |
-| Skole | Flere børn i specialklasse | −0.73 | −0.66 |
-| Skat | Sænk momsen på fødevarer | +0.29 | −0.84 |
-| Økonomi | Danmark bruger for mange penge på Ukraine | −0.54 | **−1.28** |
-| Økonomi | Store Bededag skal genindføres | −0.43 | **−1.51** |
+Top 10 questions by absolute loading on Dim 1:
 
-#### Interpreting the axes
+| Loading | Topic | Question |
+|---:|---|---|
+| −3.86 | Økonomi | Staten skal skære i støtten til Danmarks Radio |
+| +3.80 | Skat | Boligejere der tjener på prisstigninger skal betale mere i skat |
+| +3.65 | Transport | Vigtigere at investere i tog og busser end i motorveje |
+| −3.56 | Udlændinge | Vigtigere at udvise kriminelle udlændinge end at overholde internationale konventioner |
+| −3.56 | Udlændinge | Danmark skal bruge færre penge på udviklingsbistand |
+| +3.52 | Social | Større udligning mellem rige og fattige kommuner (overførselsindkomst) |
+| −3.48 | Udlændinge | Ansøgere om statsborgerskab skal screenes for antidemokratiske holdninger |
+| −3.16 | Social | OK at ulighed stiger, så længe alle bliver rigere |
+| +3.11 | Skat | Skatten for de højeste indkomster skal sættes op |
+| −2.94 | Skole | Lettere at smide elever ud, hvis deres adfærd skaber problemer |
 
-**Dim 1 — Omfordeling / Klassisk venstre–højre**
+The dominant questions are redistribution, public spending, and the role of the state: property tax on housing gains, public transport investment, welfare transfers, and income tax on the highest earners. This is a textbook economic left–right axis.
 
-The questions with the largest absolute loadings on Dim 1 are all about redistribution, public spending, and the role of the state in the economy: property tax on housing gains, investment in public transport vs roads, cutting support for DR, welfare transfers, and income tax on the highest earners. This is a textbook economic left–right axis.
+Immigration questions (udvise kriminelle, bistand, statsborgerskab) also load strongly on Dim 1 — they are not separable from the economic axis by any orthogonal rotation. Danish immigration attitudes and economic attitudes are so correlated among candidates that they lie on the same dimension.
 
-Immigration questions (udvise kriminelle, bistand, statsborgerskab) also load strongly on Dim 1 — they are not separable from the economic axis in these data by any orthogonal rotation. This means Danish immigration attitudes and economic attitudes are so correlated among candidates that they lie on the same dimension.
+#### Dim 2 — Reformisme / Populisme
 
-**Dim 2 — Reformisme / Populisme**
+Top 10 questions by absolute loading on Dim 2:
 
-After controlling for Dim 1, the second axis is defined by questions about the retirement age, the Store Bededag holiday, Ukraine aid, cross-party government, and foreign labour. These are not obviously "immigration vs not" — they cluster around a reformist/technocratic vs populist/protest dimension. High Dim 2 = support for pension reform, Ukraine aid, cross-party governance, and foreign labour (Moderaterne, Radikale, Liberal Alliance). Low Dim 2 = opposition to these (Dansk Folkeparti, Danmarksdemokraterne, Borgernes Parti).
+| Loading | Topic | Question |
+|---:|---|---|
+| +2.34 | Økonomi | Folkepensionsalderen skal fortsat stige med levealderen |
+| −1.51 | Økonomi | Store Bededag skal genindføres som helligdag |
+| +1.68 | Økonomi | Åbn for mere udenlandsk arbejdskraft fra lande uden for Europa |
+| +1.50 | Regeringsdannelse | Det vil være bedst med en regering hen over midten |
+| −1.28 | Økonomi | Danmark bruger for mange penge på at støtte Ukraine |
+| −1.22 | Transport | Afgifter på benzin og diesel skal sænkes |
+| −1.14 | Skat | Skatten for de højeste indkomster skal sættes op |
+| −1.09 | Økonomi | Politikerne skal arbejde for at sætte arbejdstiden ned |
+| +1.09 | Social | OK at ulighed stiger, så længe alle bliver rigere |
+| +1.07 | Social | Vigtigere at skaffe ansatte til ældrepleje end at de taler dansk |
 
-Notably, Dansk Folkeparti is a strong outlier on Dim 2 (very low), sitting far from the rest of the right wing — captured here by their strong opposition to pension reform and Ukraine support rather than their immigration stance (which loads on Dim 1, shared with most of the right).
+After controlling for Dim 1, the second axis is defined by pension reform, the Store Bededag holiday, Ukraine aid, cross-party government, and foreign labour. These cluster around a reformist/technocratic vs populist/protest dimension. High Dim 2 = support for pension reform, Ukraine aid, cross-party governance, and foreign labour (Moderaterne, Radikale, Liberal Alliance). Low Dim 2 = opposition to these (Dansk Folkeparti, Danmarksdemokraterne, Borgernes Parti).
+
+Notably, Dansk Folkeparti is a strong outlier on Dim 2 (very low), sitting far from the rest of the right wing — captured here by their opposition to pension reform and Ukraine support rather than immigration stance (which loads on Dim 1, shared with most of the right).
 
 ## Reproducing
 
