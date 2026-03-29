@@ -169,7 +169,7 @@ def main():
     xlim = ax.get_xlim()
     ylim = ax.get_ylim()
 
-    ax.text(np.mean(xlim), ylim[0] - 0.15, "Økonomi",
+    ax.text(np.mean(xlim), ylim[0] - 0.15, "Omfordeling",
             ha="center", va="top", fontsize=12, color="#555555",
             transform=ax.transData, clip_on=False)
     ax.text(xlim[0] + 0.05, ylim[0] - 0.15, "← Venstre",
@@ -179,13 +179,13 @@ def main():
             ha="right", va="top", fontsize=10, color="#888888",
             transform=ax.transData, clip_on=False)
 
-    ax.text(xlim[0] - 0.15, np.mean(ylim), "Nationalisme / Globalisme",
+    ax.text(xlim[0] - 0.15, np.mean(ylim), "Reformisme / Populisme",
             ha="right", va="center", fontsize=12, color="#555555",
             rotation=90, transform=ax.transData, clip_on=False)
-    ax.text(xlim[0] - 0.15, ylim[1] - 0.05, "Nationalistisk ↑",
+    ax.text(xlim[0] - 0.15, ylim[1] - 0.05, "Reformistisk ↑",
             ha="right", va="top", fontsize=10, color="#888888",
             rotation=90, transform=ax.transData, clip_on=False)
-    ax.text(xlim[0] - 0.15, ylim[0] + 0.05, "↓ Internationalistisk",
+    ax.text(xlim[0] - 0.15, ylim[0] + 0.05, "↓ Populistisk",
             ha="right", va="bottom", fontsize=10, color="#888888",
             rotation=90, transform=ax.transData, clip_on=False)
 
