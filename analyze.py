@@ -22,6 +22,8 @@ import matplotlib
 import matplotlib.pyplot as plt
 from matplotlib.patches import Ellipse
 from scipy.stats import zscore
+from scipy.optimize import minimize
+from scipy.special import expit
 
 # girth must be installed: pip install girth
 from girth import multidimensional_grm_mml
@@ -88,6 +90,16 @@ def load_data(data_dir=Path(".")):
     data = np.round(data).astype(int)
     data = np.clip(data, 1, 5)
 
+    # Recode each item to consecutive integers starting from 1.
+    # Needed when sources use different scales (e.g. DR: 1-5, Altinget: 1-2-4-5);
+    # girth infers K from unique values, so non-consecutive codes would cause
+    # the MAP scorer to index out of bounds.
+    for i in range(data.shape[0]):
+        unique_vals = np.sort(np.unique(data[i]))
+        if not np.array_equal(unique_vals, np.arange(1, len(unique_vals) + 1)):
+            mapping = {int(v): k + 1 for k, v in enumerate(unique_vals)}
+            data[i] = np.array([mapping[v] for v in data[i]], dtype=int)
+
     return data, names, parties, kept_questions
 
 
@@ -140,6 +152,65 @@ def varimax(loadings, max_iter=1000, tol=1e-6):
     return loadings @ rotation, rotation
 
 
+def grm_map_abilities(data, discrimination, difficulty):
+    """
+    MAP ability estimation for a multidimensional GRM.
+    Replaces girth's EAP estimates (which band at Gauss-Hermite nodes)
+    with continuous MAP estimates via L-BFGS-B optimisation.
+
+    Parameters
+    ----------
+    data           : (n_items, n_persons) int array, responses 1..K
+    discrimination : (n_items, n_dims) float array
+    difficulty     : (n_items, K-1) float array
+
+    Returns
+    -------
+    abilities : (n_dims, n_persons) float array
+    """
+    n_items, n_persons = data.shape
+    n_dims = discrimination.shape[1]
+    abilities = np.zeros((n_dims, n_persons))
+
+    # Pre-sort difficulty thresholds ascending (girth stores them descending);
+    # drop NaN entries which girth emits when a boundary couldn't be estimated.
+    thresholds = []
+    for j in range(n_items):
+        b = difficulty[j]
+        thresholds.append(np.sort(b[~np.isnan(b)]))  # ascending
+
+    for p in range(n_persons):
+        responses = data[:, p]
+
+        def neg_log_posterior(theta, responses=responses):
+            lp = 0.0
+            for j in range(n_items):
+                x = int(responses[j])
+                if x < 1:
+                    continue
+                eta = np.dot(discrimination[j], theta)
+                b = thresholds[j]             # ascending thresholds
+                # P(X >= k+1 | theta) = sigma(a·theta - b_k)
+                p_cum = np.empty(len(b) + 2)
+                p_cum[0] = 1.0
+                p_cum[1:-1] = expit(eta - b)
+                p_cum[-1] = 0.0
+                p_cat = p_cum[:-1] - p_cum[1:]   # P(X = k), all >= 0
+                k = min(x - 1, len(b))            # clip to valid range
+                lp += np.log(max(p_cat[k], 1e-10))
+            lp -= 0.5 * np.dot(theta, theta)     # N(0,I) prior
+            return -lp
+
+        res = minimize(neg_log_posterior, np.zeros(n_dims), method="L-BFGS-B",
+                       options={"ftol": 1e-9, "gtol": 1e-6})
+        abilities[:, p] = res.x
+
+        if (p + 1) % 200 == 0:
+            print(f"  MAP: {p+1}/{n_persons}", flush=True)
+
+    return abilities
+
+
 def main():
     data_dir = Path(sys.argv[1]) if len(sys.argv) > 1 else Path(".")
     out_dir = data_dir
@@ -154,12 +225,15 @@ def main():
         "max_iteration": 500,
     })
 
-    abilities = results["Ability"]          # (2, n_candidates)
     discrimination = results["Discrimination"]  # (n_items, 2)
+    difficulty     = results["Difficulty"]      # (n_items, K-1)
 
-    # Varimax rotation for interpretability
+    # Varimax rotation for interpretability (rotate item parameters first)
     rotated_disc, R = varimax(discrimination)
-    abilities_rot = R.T @ abilities         # (2, n_candidates)
+
+    # MAP ability estimation in the rotated frame avoids EAP quadrature banding
+    print("Computing MAP ability estimates (replaces EAP to avoid quadrature banding)...")
+    abilities_rot = grm_map_abilities(data, rotated_disc, difficulty)  # (2, n_candidates)
 
     # Save abilities to CSV
     import csv

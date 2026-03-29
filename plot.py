@@ -182,10 +182,10 @@ def main():
     ax.text(xlim[0] - 0.15, np.mean(ylim), "Reformisme / Populisme",
             ha="right", va="center", fontsize=12, color="#555555",
             rotation=90, transform=ax.transData, clip_on=False)
-    ax.text(xlim[0] - 0.15, ylim[1] - 0.05, "Reformistisk ↑",
+    ax.text(xlim[0] - 0.15, ylim[1] - 0.05, "Populistisk ↑",
             ha="right", va="top", fontsize=10, color="#888888",
             rotation=90, transform=ax.transData, clip_on=False)
-    ax.text(xlim[0] - 0.15, ylim[0] + 0.05, "↓ Populistisk",
+    ax.text(xlim[0] - 0.15, ylim[0] + 0.05, "↓ Reformistisk",
             ha="right", va="bottom", fontsize=10, color="#888888",
             rotation=90, transform=ax.transData, clip_on=False)
 

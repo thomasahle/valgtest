@@ -1,0 +1,234 @@
+[
+  {
+    "Id": 1270,
+    "Title": "SKAT OG AFGIFTER",
+    "Question": "<p>De boligejere, der tjener mest p&aring; prisstigninger, skal betale mere i skat</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Boligpriserne er steget markant mange steder, og nogle boligejere har f&aring;et store gevinster. Hvis de, der tjener mest p&aring; bolig, betaler mere i skat, kan det bidrage til mere &oslash;konomisk lighed og give flere penge til velf&aelig;rd.</p>",
+    "ArgumentAgainst": "<p>Boligejere betaler allerede h&oslash;je skatter og afgifter og har allerede betalt skat af de penge, de har k&oslash;bt boligen for. At k&oslash;be en bolig er en stor beslutning, som folk planl&aelig;gger deres &oslash;konomi efter langt frem i tiden, s&aring; det skaber stor usikkerhed at lave om p&aring; skatten.</p>"
+  },
+  {
+    "Id": 1271,
+    "Title": "KLIMA, MILJØ OG LANDBRUG",
+    "Question": "<p>Reglerne for dyrevelf&aelig;rd skal strammes, selv om det kan g&oslash;re f&oslash;devarer fra Danmark dyrere</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Mange dyr i landbruget har d&aring;rlige forhold i dag. De b&oslash;r have bedre plads og mulighed for at ud&oslash;ve deres naturlige adf&aelig;rd. Strammere regler kan &oslash;ge dyrenes velf&aelig;rd, og det er vigtigere end hensyn til landbrug og arbejdspladser.</p>",
+    "ArgumentAgainst": "<p>Vi har allerede strenge regler for dyrevelf&aelig;rd. Strammere regler kan g&oslash;re produktionen af danske f&oslash;devarer dyrere. Det vil sv&aelig;kke konkurrenceevnen og kan koste danske arbejdspladser, is&aelig;r i landdistrikterne.</p>"
+  },
+  {
+    "Id": 1272,
+    "Title": "SUNDHED OG ÆLDRE",
+    "Question": "<p>Aktiv d&oslash;dshj&aelig;lp for uhelbredeligt syge skal v&aelig;re lovligt i Danmark</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Lovlig aktiv d&oslash;dshj&aelig;lp kan give uhelbredeligt syge mulighed for selv at bestemme over livets afslutning og mindske lidelse.</p>",
+    "ArgumentAgainst": "<p>Der er risiko for, at s&aring;rbare mennesker kan f&oslash;le sig presset til at v&aelig;lge d&oslash;den, og det er i det hele taget voldsomt at give mennesker mulighed for selv at v&aelig;lge d&oslash;den til eller fra. Det kan ogs&aring; udfordre sundhedspersonales rolle og etik.</p>"
+  },
+  {
+    "Id": 1275,
+    "Title": "ØKONOMI OG ARBEJDSMARKED",
+    "Question": "<p>Danmark bruger for mange penge p&aring; at st&oslash;tte Ukraine i krigen mod Rusland</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Det er vigtigere at bruge ressourcerne p&aring; udfordringer i Danmark end en krig langt v&aelig;k.</p>",
+    "ArgumentAgainst": "<p>St&oslash;tten til Ukraine bidrager til europ&aelig;isk sikkerhed og til at modst&aring; russisk aggression. Det kommer ogs&aring; Danmark til gode.</p>"
+  },
+  {
+    "Id": 1277,
+    "Title": "KLIMA, MILJØ OG LANDBRUG",
+    "Question": "<p>Det skal v&aelig;re forbudt for landbruget at spr&oslash;jte p&aring; s&aring;rbare drikkevandsomr&aring;der, selv om det kan g&oslash;re produktionen af f&oslash;devarer dyrere</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Et spr&oslash;jteforbud kan beskytte drikkevandet og mindske risikoen for forurening. Det vurderes at v&aelig;re billigere at beskytte de s&aring;kaldte s&aring;rbare grundvandsdannende omr&aring;der omkring vandforsyningerne mod pesticider end at skulle rense drikkevandet.</p>",
+    "ArgumentAgainst": "<p>Der findes andre metoder til beskyttelse af omr&aring;derne. Man kan for eksempel give tilskud til pesticidfri dyrkning, l&aelig;gge skat p&aring; pesticider og indg&aring; frivillige aftaler. Et forbud kan presse landbruget, sv&aelig;kke danske f&oslash;devarers konkurrenceevne og koste arbejdspladser.</p>"
+  },
+  {
+    "Id": 1278,
+    "Title": "KLIMA, MILJØ OG LANDBRUG",
+    "Question": "<p>Atomkraft p&aring; dansk jord skal v&aelig;re en del af energiforsyningen p&aring; l&aelig;ngere sigt</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Atomkraft udleder n&aelig;sten ingen CO2 og er derfor et klimavenligt alternativ til olie og kul. Samtidig kr&aelig;ver det meget mindre plads end vind- og solenergi, og det er stabilt d&oslash;gnet rundt.</p>",
+    "ArgumentAgainst": "<p>Atomkraft vil v&aelig;re dyrt og tage lang tid at anl&aelig;gge. Samtidig rejser det sp&oslash;rgsm&aring;l om sikkerhed og opbevaring af atomaffald, som er radioaktivt i tusinder af &aring;r.</p>"
+  },
+  {
+    "Id": 1280,
+    "Title": "ØKONOMI OG ARBEJDSMARKED",
+    "Question": "<p>Staten skal sk&aelig;re i st&oslash;tten til Danmarks Radio</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Der er ikke behov for at bruge skattekroner p&aring; et s&aring; stort statsligt medie. Forbrugerne ved bedst selv, hvad de vil have, og der er et godt og bredt medieudbud. DR skal ikke blive s&aring; stort, at det g&oslash;r det sv&aelig;rt for private medier at konkurrere.</p>",
+    "ArgumentAgainst": "<p>DR spiller en vigtig rolle for oplysning, kultur og demokrati i hele landet. I en tid, hvor udenlandske techfirmaer og sociale medier vokser, er der brug for et trov&aelig;rdigt medie, der ikke skal tjene penge p&aring; brugerne.</p>"
+  },
+  {
+    "Id": 1281,
+    "Title": "REGERINGSDANNELSE",
+    "Question": "<p>Det vil v&aelig;re bedst, hvis der dannes en regering hen over midten</p>",
+    "Info": "",
+    "ArgumentFor": "<p>En midterregering kan skabe mere stabile og langtidsholdbare politiske l&oslash;sninger, og den kan v&aelig;re uafh&aelig;ngig af partier med yderligtg&aring;ende holdninger.</p>",
+    "ArgumentAgainst": "<p>Det vil v&aelig;re bedre med en regering, der f&oslash;rer en tydeligt r&oslash;d eller bl&aring; politik. Det g&oslash;r det ogs&aring; mere klart, hvem der har ansvaret.</p>"
+  },
+  {
+    "Id": 1283,
+    "Title": "RETSPOLITIK",
+    "Question": "<p>Forbuddet mod at br&aelig;nde religi&oslash;se skrifter som Koranen og Bibelen skal oph&aelig;ves</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Forbuddet er en begr&aelig;nsning af ytringsfriheden. Dansk lovgivning skal ikke dikteres af, at nogle grupper opf&oslash;rer sig truende p&aring; grund af koranafbr&aelig;ndinger.</p>",
+    "ArgumentAgainst": "<p>Afbr&aelig;ndinger kan skabe konflikter og true Danmarks sikkerhed. Ytringsfrihed skal ikke beskytte retten til at br&aelig;nde b&oslash;ger.</p>"
+  },
+  {
+    "Id": 1284,
+    "Title": "RIGSFÆLLESSKAB",
+    "Question": "<p>Danmark skal arbejde for, at Gr&oslash;nland og F&aelig;r&oslash;erne bliver mere selvst&aelig;ndige end i dag</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Gr&oslash;nland og F&aelig;r&oslash;erne &oslash;nsker mere selvst&aelig;ndighed, og derfor er det mest b&aelig;redygtige en relation, hvor de tre lande er mere ligev&aelig;rdige end i dag. Danmark har et medansvar for at udvikle en ny model.</p>",
+    "ArgumentAgainst": "<p>Snak om &oslash;get selvst&aelig;ndighed kan skabe usikkerhed i en tid, hvor USA opf&oslash;rer sig truende og &oslash;nsker kontrol over Gr&oslash;nland.</p>"
+  },
+  {
+    "Id": 1286,
+    "Title": "SKAT OG AFGIFTER",
+    "Question": "<p>Selskabsskatten skal s&aelig;nkes</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Lavere selskabsskat kan g&oslash;re Danmark mere attraktivt for virksomheder til gavn for v&aelig;kst, samfunds&oslash;konomi og arbejdspladser.</p>",
+    "ArgumentAgainst": "<p>Lavere selskabsskat vil give staten lavere indt&aelig;gter til for eksempel velf&aelig;rd.</p>"
+  },
+  {
+    "Id": 1287,
+    "Title": "SKAT OG AFGIFTER",
+    "Question": "<p>Momsen p&aring; f&oslash;devarer skal s&aelig;nkes</p>",
+    "Info": "",
+    "ArgumentFor": "<p>F&oslash;devarer er blevet s&aring; dyre, at det rammer mange husholdninger h&aring;rdt, is&aelig;r dem med de laveste indkomster. En s&aelig;nkning af momsen kan d&aelig;mpe udviklingen.</p>",
+    "ArgumentAgainst": "<p>Det er dyrt for staten at s&aelig;nke f&oslash;devaremomsen, og hj&aelig;lpen kommer ogs&aring; de rigeste til gavn. Det skaber mere bureaukrati, at der bliver forskel p&aring; momsen p&aring; f&oslash;devarer og andre varer og tjenester.</p>"
+  },
+  {
+    "Id": 1288,
+    "Title": "SOCIAL OG ULIGHED",
+    "Question": "<p>Det er okay, at den &oslash;konomiske ulighed stiger, s&aring; l&aelig;nge alle bliver rigere</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Ulighed er ikke et problem i sig selv. Det afg&oslash;rende er, om alle har en rimelig levestandard, og alle m&aelig;rker fremgang.</p>",
+    "ArgumentAgainst": "<p>Ulighed er et problem i sig selv, fordi det skaber kl&oslash;fter mellem de rigeste og de fattigste og mistillid til samfundets institutioner.</p>"
+  },
+  {
+    "Id": 1289,
+    "Title": "SOCIAL OG ULIGHED",
+    "Question": "<p>Der skal v&aelig;re st&oslash;rre udligning mellem rige og fattige kommuner</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Der er stor forskel p&aring;, hvor velstillede kommunernes borgere er, og hvor meget hj&aelig;lp de beh&oslash;ver fra det offentlige. Hvis pengene omfordeles endnu mere end i dag, kan det sikre mere ensartet velf&aelig;rd p&aring; tv&aelig;rs af landet og skabe mere lighed.</p>",
+    "ArgumentAgainst": "<p>De rigeste kommuner betaler allerede meget til de fattigste, og mere udligning kan mindske kommunernes incitament til selv at blive mere effektive, styrke erhvervsliv og skabe job. Mere omfordeling kan sv&aelig;kke det kommunale selvstyre og mindske borgeres st&oslash;tte til systemet i de kommuner, der skal betale mere.</p>"
+  },
+  {
+    "Id": 1290,
+    "Title": "SUNDHED OG ÆLDRE",
+    "Question": "<p>Prisen p&aring; cigaretter b&oslash;r s&aelig;ttes markant op</p>",
+    "Info": "",
+    "ArgumentFor": "<p>H&oslash;jere priser kan f&aring; flere til at skrue ned eller helt stoppe med at ryge, is&aelig;r unge. Det vil gavne folkesundheden, mindske udgifterne til sundhed og betyde, at folk lever l&aelig;ngere.</p>",
+    "ArgumentAgainst": "<p>H&oslash;jere cigaretpriser rammer is&aelig;r dem med de laveste indkomster. Det kan f&aring; flere til at k&oslash;be cigaretter i udlandet frem for i danske butikker, og det kan &oslash;ge illegalt salg. Staten skal ikke v&aelig;re formynderisk.</p>"
+  },
+  {
+    "Id": 1291,
+    "Title": "SUNDHED OG ÆLDRE",
+    "Question": "<p>Det skal v&aelig;re lovligt at k&oslash;be og ryge hash</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Hash er ikke n&oslash;dvendigvis mere skadeligt end alkohol og cigaretter. En legalisering kan reducere kriminalitet og sikre kontrol med kvaliteten.</p>",
+    "ArgumentAgainst": "<p>Forbuddet mod hash er et vigtigt signal om, at det er skadeligt og afh&aelig;ngighedsskabende. Legalisering kan f&oslash;re til &oslash;get forbrug og alvorlige sundhedsproblemer.</p>"
+  },
+  {
+    "Id": 1292,
+    "Title": "TRANSPORT",
+    "Question": "<p>Det er vigtigere at investere i tog og busser end i motorveje</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Kollektiv transport er klimavenligt og vigtigt for, at folk uden bil kan komme rundt, mens motorveje fremmer biltrafik og st&oslash;j og sk&aelig;mmer landskabet. Der er brug for bedre kollektiv trafik uden for de store byer.</p>",
+    "ArgumentAgainst": "<p>Mange er afh&aelig;ngige af bil, is&aelig;r uden for byerne. Det skal v&aelig;re let at pendle til job. Et udbygget motorvejsnet er godt for samfundet, fordi varer og arbejdskraft let kan transporteres rundt i landet.</p>"
+  },
+  {
+    "Id": 1293,
+    "Title": "TRANSPORT",
+    "Question": "<p>Afgifter p&aring; benzin og diesel skal s&aelig;nkes</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Det er urimeligt, at det er dyrere at k&oslash;re i benzin- eller dieselbil end elbil. Det er ikke alle, der vil eller har r&aring;d til at skifte til elbil. Inden for varevogne og specialk&oslash;ret&oslash;jer findes der sj&aelig;ldent gode, elektriske alternativer, s&aring; afgifterne rammer erhvervslivet.</p>",
+    "ArgumentAgainst": "<p>Lavere afgifter kan &oslash;ge forbruget af benzin og diesel og mindske incitamentet til at skifte til elk&oslash;ret&oslash;jer. Det kan skade den gr&oslash;nne omstilling.</p>"
+  },
+  {
+    "Id": 1295,
+    "Title": "SKOLE OG UDDANNELSE",
+    "Question": "<p>Det skal v&aelig;re lettere at smide elever ud af deres folkeskole, hvis deres adf&aelig;rd skaber problemer</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Det kan skabe mere ro for resten af klassen, og l&aelig;rerne f&aring;r frigjort opm&aelig;rksomhed til at tage sig af de &oslash;vrige elever. Kommunen m&aring; give et andet skoletilbud til eleven, der er smidt ud.</p>",
+    "ArgumentAgainst": "<p>I dag kan en skoleleder anmode kommunen om at flytte en elev til en anden skole, hvis der er s&aelig;rlige problemer. Det skal ikke v&aelig;re lettere at smide elever ud. Skolen og kommunen m&aring; tilbyde eleven den rette hj&aelig;lp frem for at ekskludere eleven yderligere.</p>"
+  },
+  {
+    "Id": 1297,
+    "Title": "SKOLE OG UDDANNELSE",
+    "Question": "<p>Der bliver uddannet for mange med lange videreg&aring;ende uddannelser</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Lange uddannelser er dyre for samfundet, og ikke alle nyuddannede finder relevante job inden for deres felt. Fokus p&aring; lange uddannelser kan f&oslash;re til mangel p&aring; fagl&aelig;rte og kortere uddannede, som samfundet ogs&aring; har brug for.</p>",
+    "ArgumentAgainst": "<p>Lange uddannelser styrker b&aring;de den enkelte og fremmer den viden og innovation, som Danmark skal leve af. H&oslash;jtuddannede kan selv tilpasse sig arbejdsmarkedet.</p>"
+  },
+  {
+    "Id": 1298,
+    "Title": "ØKONOMI OG ARBEJDSMARKED",
+    "Question": "<p>Danmark skal bruge f&aelig;rre penge p&aring; udviklingsbistand</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Pengene kan bruges bedre p&aring; nationale udfordringer. Danmark kan godt s&aelig;nke bistanden og stadig betale mere end mange andre lande i forhold til vores st&oslash;rrelse.</p>",
+    "ArgumentAgainst": "<p>Udviklingsbistand er vigtigt for stabilitet og for at bek&aelig;mpe fattigdom, der kan f&oslash;re til flygtningestr&oslash;mme. Danmark lever i dag akkurat op til FN's anbefaling om, hvor meget de rige lande b&oslash;r betale i bistand, og det er vigtigt for Danmarks omd&oslash;mme, at vi bliver ved med det.</p>"
+  },
+  {
+    "Id": 1299,
+    "Title": "SUNDHED OG ÆLDRE",
+    "Question": "<p>Det er vigtigere, at der kan skaffes nok ansatte til &aelig;ldreplejen, end om de kan tale dansk</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Danmark mangler sosu'er og andet personale i &aelig;ldreplejen, og der er behov for ogs&aring; at ans&aelig;tte folk med udenlandsk baggrund for at skaffe nok h&aelig;nder. Det g&aring;r ud over de &aelig;ldre, hvis krav om danskkundskaber betyder, at der er for f&aring; ansatte.</p>",
+    "ArgumentAgainst": "<p>Det kan v&aelig;re utrygt for nogle &aelig;ldre at f&aring; bes&oslash;g eller personlig pleje af nogen, de har sv&aelig;rt ved at tale med og forst&aring;. Hvis de ansatte ikke kan tale dansk, kan det give ringere pleje for den enkelte.</p>"
+  },
+  {
+    "Id": 1300,
+    "Title": "UDLÆNDINGE",
+    "Question": "<p>Det er vigtigere at kunne udvise flere kriminelle udl&aelig;ndinge end at overholde internationale konventioner</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Det virker urimeligt, hvis en udl&aelig;nding f&aring;r lov at blive i landet trods alvorlig kriminalitet. Det kan kr&aelig;nke retsf&oslash;lelsen og sv&aelig;kke tilliden til systemet.</p>",
+    "ArgumentAgainst": "<p>Konventioner beskytter grundl&aelig;ggende rettigheder, og det er afg&oslash;rende for et lille land som Danmark, at der er en international retsorden, som verdens lande f&oslash;lger. Hvis vi ikke selv overholder konventionerne, er vi med til at underminere dem.</p>"
+  },
+  {
+    "Id": 1301,
+    "Title": "ØKONOMI OG ARBEJDSMARKED",
+    "Question": "<p>Folkepensionsalderen skal fortsat stige med et &aring;r, n&aring;r den gennemsnitlige levealder stiger med et &aring;r</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Den stigende pensionsalder er en hoved&aring;rsag til Danmarks st&aelig;rke &oslash;konomi. Det er naturligt, at vi arbejder l&aelig;ngere i takt med, at vi lever l&aelig;ngere.</p>",
+    "ArgumentAgainst": "<p>Pensionsalderen kan ikke blive ved med at stige. Der m&aring; v&aelig;re gr&aelig;nser for, hvor l&aelig;nge man skal arbejde, og den stigende pensionsalder er h&aring;rdere for nogle grupper end for andre.</p>"
+  },
+  {
+    "Id": 1303,
+    "Title": "ØKONOMI OG ARBEJDSMARKED",
+    "Question": "<p>Fremtidens &aelig;ldrepleje skal sikres ved, at folk i job selv er med til at spare op til &aelig;ldreplejen</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Det er sv&aelig;rt for staten at f&oslash;lge med de stigende udgifter og forventninger til &aelig;ldreplejen. Hvis folk i job selv er med til at spare op gennem obligatoriske ordninger, kan de ogs&aring; v&aelig;re med til at bestemme, hvilket serviceniveau de vil have i deres &aelig;ldrepleje, n&aring;r de bliver gamle. Og staten sparer penge.</p>",
+    "ArgumentAgainst": "<p>Det kan &oslash;ge forskellen p&aring;, hvilken &aelig;ldrepleje de rigeste og de fattigste f&aring;r.</p>"
+  },
+  {
+    "Id": 1304,
+    "Title": "ØKONOMI OG ARBEJDSMARKED",
+    "Question": "<p>Store Bededag skal genindf&oslash;res som helligdag, selv om det koster staten penge</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Det var forkert at afskaffe Store Bededag, fordi det &oslash;gede folks samlede arbejdstid. Familier og l&oslash;nmodtagere er pressede og har derfor behov for den fridag.</p>",
+    "ArgumentAgainst": "<p>Det mindsker arbejdsudbuddet og kan koste staten flere milliarder kroner om &aring;ret at genindf&oslash;re helligdagen. Der er brug for pengene til andre prioriteter. Samtidig er det usikkert, hvordan man skal rulle bededagstill&aelig;gget tilbage.</p>"
+  },
+  {
+    "Id": 1305,
+    "Title": "ØKONOMI OG ARBEJDSMARKED",
+    "Question": "<p>Overf&oslash;rselsindkomsten til de fattigste kontanthj&aelig;lpsmodtagere skal s&aelig;ttes op</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Uligheden i Danmark er blevet for stor. Vi er for rigt et samfund til at lade de fattigste v&aelig;re s&aring; &oslash;konomisk pressede, som det er tilf&aelig;ldet for nogle, og det er ikke alle, der er i stand til at arbejde.</p>",
+    "ArgumentAgainst": "<p>Det skal kunne betale sig at arbejde. Hvis overf&oslash;rselsindkomsterne er for h&oslash;je, mindsker det incitamentet til at komme i job.</p>"
+  },
+  {
+    "Id": 1306,
+    "Title": "ØKONOMI OG ARBEJDSMARKED",
+    "Question": "<p>Politikerne skal arbejde for en aftale om at s&aelig;tte arbejdstiden ned, selv om det vil koste samfundet og den enkelte noget &oslash;konomisk</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Kortere arbejdstid kan forbedre folks trivsel, give mere tid til familien, mindske stress og &oslash;ge arbejdsgl&aelig;den. Man kan ogs&aring; blive mere effektiv i de timer, man arbejder.</p>",
+    "ArgumentAgainst": "<p>Det kan give lavere l&oslash;n og vil koste skatteindt&aelig;gter, v&aelig;kst og velstand i samfundet.</p>"
+  },
+  {
+    "Id": 1307,
+    "Title": "ØKONOMI OG ARBEJDSMARKED",
+    "Question": "<p>Der skal &aring;bnes for mere udenlandsk arbejdskraft fra lande uden for Europa og Nordamerika</p>",
+    "Info": "",
+    "ArgumentFor": "<p>Der mangler h&aelig;nder i mange sektorer i Danmark, for eksempel inden for sundhed, pleje, byggeri og tech, og der er ikke nok at hente i Europa og Nordamerika.</p>",
+    "ArgumentAgainst": "<p>Det kan skabe problemer med d&aring;rlig integration, hvis der kommer for mange hertil fra ikke-vestlige lande.</p>"
+  }
+]

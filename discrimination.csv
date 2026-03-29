@@ -1,26 +1,34 @@
 question_id,title,question,loading_dim1,loading_dim2
-1270,SKAT OG AFGIFTER,"De boligejere, der tjener mest på prisstigninger, skal betale mere i skat",3.8008061411198226,-0.4524068271559968
-1275,ØKONOMI OG ARBEJDSMARKED,Danmark bruger for mange penge på at støtte Ukraine i krigen mod Rusland,-0.5382709460134069,-1.2757403053411316
-1304,ØKONOMI OG ARBEJDSMARKED,"Store Bededag skal genindføres som helligdag, selv om det koster staten penge",-0.43061166150528124,-1.5050424192473004
-1300,UDLÆNDINGE,Det er vigtigere at kunne udvise flere kriminelle udlændinge end at overholde internationale konventioner,-3.5345470726164567,-0.699180001756727
-1289,SOCIAL OG ULIGHED,Der skal være større udligning mellem rige og fattige kommuner,1.0337108225923783,-0.5758842464109224
-1301,ØKONOMI OG ARBEJDSMARKED,"Folkepensionsalderen skal fortsat stige med et år, når den gennemsnitlige levealder stiger med et år",-1.571134395655936,2.3447227108690183
-1285,SKAT OG AFGIFTER,Skatten for de højeste indkomster skal sættes op,3.1057925534689135,-1.1430540670199423
-1298,ØKONOMI OG ARBEJDSMARKED,Danmark skal bruge færre penge på udviklingsbistand,-3.5577262138469505,-0.675854316676308
-1278,"KLIMA, MILJØ OG LANDBRUG",Atomkraft på dansk jord skal være en del af energiforsyningen på længere sigt,-2.844171090956157,0.2062601833851571
-1305,ØKONOMI OG ARBEJDSMARKED,Overførselsindkomsten til de fattigste kontanthjælpsmodtagere skal sættes op,3.520089088768771,-0.7313603538018881
-1294,SKOLE OG UDDANNELSE,Flere børn med særlige udfordringer bør gå i specialklasse frem for i almindelige skoleklasser,-0.7302740365165468,-0.6616160750455286
-1277,"KLIMA, MILJØ OG LANDBRUG","Det skal være forbudt for landbruget at sprøjte på sårbare drikkevandsområder, selv om det kan gøre produktionen af fødevarer dyrere",2.5624651383054835,-0.01814412387782365
-1292,TRANSPORT,Det er vigtigere at investere i tog og busser end i motorveje,3.653209811543818,-0.1144954586209244
-1288,SOCIAL OG ULIGHED,"Det er okay, at den økonomiske ulighed stiger, så længe alle bliver rigere",-3.1627720440044804,1.0864325507030006
-1290,SUNDHED OG ÆLDRE,Prisen på cigaretter bør sættes markant op,1.2110911089704348,0.49930181807209895
-1293,TRANSPORT,Afgifter på benzin og diesel skal sænkes,-2.884934434802474,-1.2225021650251842
-1306,ØKONOMI OG ARBEJDSMARKED,"Politikerne skal arbejde for en aftale om at sætte arbejdstiden ned, selv om det vil koste samfundet og den enkelte noget økonomisk",2.673779678255059,-1.0947456271614617
-1308,UDLÆNDINGE,Ansøgere om dansk statsborgerskab skal screenes for antidemokratiske holdninger,-3.481790529457274,-0.7522700838807611
-1279,"KLIMA, MILJØ OG LANDBRUG","Når der skal sættes solceller op, bør hensyn til lokalbefolkningen veje tungere end grøn omstilling",-2.213646804282823,-0.6514774359211394
-1307,ØKONOMI OG ARBEJDSMARKED,Der skal åbnes for mere udenlandsk arbejdskraft fra lande uden for Europa og Nordamerika,1.5004806376862383,1.6796437921639586
-1295,SKOLE OG UDDANNELSE,"Det skal være lettere at smide elever ud af deres folkeskole, hvis deres adfærd skaber problemer",-2.939358579302131,-0.14286021298824994
-1287,SKAT OG AFGIFTER,Momsen på fødevarer skal sænkes,0.2917675504663606,-0.8444902073140143
-1280,ØKONOMI OG ARBEJDSMARKED,Staten skal skære i støtten til Danmarks Radio,-3.86457478800923,-0.36706577545649344
-1281,REGERINGSDANNELSE,"Det vil være bedst, hvis der dannes en regering hen over midten",0.5359141559755787,1.495426435556204
-1299,SUNDHED OG ÆLDRE,"Det er vigtigere, at der kan skaffes nok ansatte til ældreplejen, end om de kan tale dansk",1.0727085120878181,1.0659692102640501
+1270,SKAT OG AFGIFTER,"De boligejere, der tjener mest på prisstigninger, skal betale mere i skat",-3.7138017693527576,0.3101556200086708
+1275,ØKONOMI OG ARBEJDSMARKED,Danmark bruger for mange penge på at støtte Ukraine i krigen mod Rusland,0.5454484022606877,1.259352030733376
+1304,ØKONOMI OG ARBEJDSMARKED,"Store Bededag skal genindføres som helligdag, selv om det koster staten penge",0.3071903094541705,1.5726804535185817
+1300,UDLÆNDINGE,Det er vigtigere at kunne udvise flere kriminelle udlændinge end at overholde internationale konventioner,3.512169382849682,0.7708157884874172
+1289,SOCIAL OG ULIGHED,Der skal være større udligning mellem rige og fattige kommuner,-0.9880402237444014,0.5499468434298848
+1301,ØKONOMI OG ARBEJDSMARKED,"Folkepensionsalderen skal fortsat stige med et år, når den gennemsnitlige levealder stiger med et år",1.4554480792046038,-2.143927905142202
+1285,SKAT OG AFGIFTER,Skatten for de højeste indkomster skal sættes op,-3.4451420879480854,0.7588540038855478
+1298,ØKONOMI OG ARBEJDSMARKED,Danmark skal bruge færre penge på udviklingsbistand,3.8148151393240997,0.4768525497885465
+1278,"KLIMA, MILJØ OG LANDBRUG",Atomkraft på dansk jord skal være en del af energiforsyningen på længere sigt,2.782026339929334,-0.1369120037049489
+1305,ØKONOMI OG ARBEJDSMARKED,Overførselsindkomsten til de fattigste kontanthjælpsmodtagere skal sættes op,-3.465070837794068,0.5913211709873913
+1294,SKOLE OG UDDANNELSE,Flere børn med særlige udfordringer bør gå i specialklasse frem for i almindelige skoleklasser,0.6349199942152965,0.6653797296396067
+1277,"KLIMA, MILJØ OG LANDBRUG","Det skal være forbudt for landbruget at sprøjte på sårbare drikkevandsområder, selv om det kan gøre produktionen af fødevarer dyrere",-2.4679263200583534,-0.29612580574575514
+1292,TRANSPORT,Det er vigtigere at investere i tog og busser end i motorveje,-3.5264395653953566,-0.04950252546180011
+1288,SOCIAL OG ULIGHED,"Det er okay, at den økonomiske ulighed stiger, så længe alle bliver rigere",3.1247147372113067,-1.0887455181716796
+1290,SUNDHED OG ÆLDRE,Prisen på cigaretter bør sættes markant op,-1.1582366628871283,-0.6195172835564754
+1293,TRANSPORT,Afgifter på benzin og diesel skal sænkes,2.768825762936399,1.1783582634734227
+1306,ØKONOMI OG ARBEJDSMARKED,"Politikerne skal arbejde for en aftale om at sætte arbejdstiden ned, selv om det vil koste samfundet og den enkelte noget økonomisk",-2.5510185256442033,0.9931888803036227
+1308,UDLÆNDINGE,Ansøgere om dansk statsborgerskab skal screenes for antidemokratiske holdninger,3.499323238697461,0.7832933932745128
+1279,"KLIMA, MILJØ OG LANDBRUG","Når der skal sættes solceller op, bør hensyn til lokalbefolkningen veje tungere end grøn omstilling",2.0912685325595515,0.6102516785223943
+1307,ØKONOMI OG ARBEJDSMARKED,Der skal åbnes for mere udenlandsk arbejdskraft fra lande uden for Europa og Nordamerika,-1.3057489261620774,-1.6568349877301798
+1295,SKOLE OG UDDANNELSE,"Det skal være lettere at smide elever ud af deres folkeskole, hvis deres adfærd skaber problemer",2.5500126936353613,0.1716493797616476
+1287,SKAT OG AFGIFTER,Momsen på fødevarer skal sænkes,-0.2778916841270522,0.6907540423890077
+1280,ØKONOMI OG ARBEJDSMARKED,Staten skal skære i støtten til Danmarks Radio,3.889346357055695,0.40445953690187
+1281,REGERINGSDANNELSE,"Det vil være bedst, hvis der dannes en regering hen over midten",-0.4437955986387949,-1.7232037918140433
+1299,SUNDHED OG ÆLDRE,"Det er vigtigere, at der kan skaffes nok ansatte til ældreplejen, end om de kan tale dansk",-1.0158165247166768,-0.9647526617957054
+1271,"KLIMA, MILJØ OG LANDBRUG","<p>Reglerne for dyrevelf&aelig;rd skal strammes, selv om det kan g&oslash;re f&oslash;devarer fra Danmark dyrere</p>",-1.8123939201498127,0.030378736408362948
+1272,SUNDHED OG ÆLDRE,<p>Aktiv d&oslash;dshj&aelig;lp for uhelbredeligt syge skal v&aelig;re lovligt i Danmark</p>,0.41225296341857415,0.05418554935825371
+1283,RETSPOLITIK,<p>Forbuddet mod at br&aelig;nde religi&oslash;se skrifter som Koranen og Bibelen skal oph&aelig;ves</p>,0.9896204485068401,0.794440641822098
+1284,RIGSFÆLLESSKAB,"<p>Danmark skal arbejde for, at Gr&oslash;nland og F&aelig;r&oslash;erne bliver mere selvst&aelig;ndige end i dag</p>",-1.1570109719507347,-0.38604778328125106
+1286,SKAT OG AFGIFTER,<p>Selskabsskatten skal s&aelig;nkes</p>,3.041729246133332,-1.1741820742351479
+1291,SUNDHED OG ÆLDRE,<p>Det skal v&aelig;re lovligt at k&oslash;be og ryge hash</p>,-0.6438609558038769,-0.14747856087796643
+1297,SKOLE OG UDDANNELSE,<p>Der bliver uddannet for mange med lange videreg&aring;ende uddannelser</p>,1.2998184297123263,0.8833408040527427
+1303,ØKONOMI OG ARBEJDSMARKED,"<p>Fremtidens &aelig;ldrepleje skal sikres ved, at folk i job selv er med til at spare op til &aelig;ldreplejen</p>",1.4586254148027826,-1.4167793263612254

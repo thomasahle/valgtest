@@ -6,25 +6,30 @@ A data-driven political compass for the Danish 2026 general election (*Folketing
 
 ## What is this?
 
-DR (Danish public broadcaster) runs a *Kandidattest* where every candidate for parliament answers 25 political questions on a 1–5 scale (strongly disagree → strongly agree). This project collects all those answers and uses a psychometric model to place every candidate — and their party — in a 2D political space, without any manual labelling of axes.
+DR and Altinget both run a *Kandidattest* where every candidate for parliament answers political questions on a 1–5 scale (strongly disagree → strongly agree). This project collects all those answers and uses a psychometric model to place every candidate — and their party — in a 2D political space, without any manual labelling of axes.
 
 ## Data
 
-- **25 questions** covering topics like taxation, immigration, climate, welfare, and foreign policy
-- **933 candidates** scraped across all 92 constituencies
-- **883 candidates** with complete answers (the remaining 50 chose not to fill in the questionnaire)
+Two sources are scraped and combined:
 
-The raw data is in `questions.json`, `candidates.json`, and `abilities.csv`.
+- **DR** (`scrape.py`): 25 questions, 933 candidates across all 92 constituencies
+- **Altinget** (`scrape_altinget.py`): 29 questions, 933 candidates
+
+The two tests share 21 questions; together they cover **33 unique questions**. Note that Altinget uses a 4-point scale (1–2–4–5, no neutral option), while DR uses 1–5. Responses are recoded to consecutive integers per item before fitting.
+
+After combining and filtering candidates with fewer than 20 answers: **878 candidates** with an average of 31 questions answered each.
+
+The combined data is in `combined/questions.json`, `combined/candidates.json`, and `abilities.csv`.
 
 ## Methodology
 
-### 1. Scraping (`scrape.py`)
+### 1. Scraping
 
-DR's site is a Next.js app that embeds data as JSON inside `__next_f.push(...)` script tags in the HTML. The scraper:
+**DR** (`scrape.py`): DR's site is a Next.js app that embeds data as JSON inside `__next_f.push(...)` script tags in the HTML. The scraper fetches all 92 constituency pages, extracts candidate `urlKey` identifiers, and retrieves each candidate's `candidateAnswers` array (QuestionID → 1–5 answer).
 
-1. Fetches all 92 valid constituency pages and extracts candidate `urlKey` identifiers from the escaped JSON payloads
-2. Fetches each candidate's profile page and extracts their `candidateAnswers` array (QuestionID → 1–5 answer)
-3. Fetches the 25 questions once from DR's public API: `GET /api/GetQuestions?districtId=4`
+**Altinget** (`scrape_altinget.py`): Altinget's API is queried directly for candidates and their answers. Altinget uses a 4-point scale (1–2–4–5) with no neutral option.
+
+**Combining** (`combine.py`): Candidates are matched by `urlKey` across sources. For questions answered in both sources, the first source's answer takes precedence. The result is a unified dataset with 33 questions and 878 candidates.
 
 ### 2. IRT Model (`analyze.py`)
 
@@ -66,59 +71,63 @@ After varimax, we fix the two sign ambiguities using well-known anchor parties (
 
 #### Dim 1 — Omfordeling / Klassisk venstre–højre
 
-Top 10 questions by absolute loading on Dim 1:
+Top 10 questions by absolute loading on Dim 1 (positive = right-wing position):
 
 | Loading | Topic | Question |
 |---:|---|---|
-| −3.86 | Økonomi | Staten skal skære i støtten til Danmarks Radio |
-| +3.80 | Skat | Boligejere der tjener på prisstigninger skal betale mere i skat |
-| +3.65 | Transport | Vigtigere at investere i tog og busser end i motorveje |
-| −3.56 | Udlændinge | Vigtigere at udvise kriminelle udlændinge end at overholde internationale konventioner |
-| −3.56 | Udlændinge | Danmark skal bruge færre penge på udviklingsbistand |
-| +3.52 | Social | Større udligning mellem rige og fattige kommuner (overførselsindkomst) |
-| −3.48 | Udlændinge | Ansøgere om statsborgerskab skal screenes for antidemokratiske holdninger |
-| −3.16 | Social | OK at ulighed stiger, så længe alle bliver rigere |
-| +3.11 | Skat | Skatten for de højeste indkomster skal sættes op |
-| −2.94 | Skole | Lettere at smide elever ud, hvis deres adfærd skaber problemer |
+| +3.89 | Økonomi | Staten skal skære i støtten til Danmarks Radio |
+| +3.81 | Udlændinge | Danmark skal bruge færre penge på udviklingsbistand |
+| −3.71 | Skat | Boligejere der tjener på prisstigninger skal betale mere i skat |
+| −3.53 | Transport | Vigtigere at investere i tog og busser end i motorveje |
+| +3.51 | Udlændinge | Vigtigere at udvise kriminelle udlændinge end at overholde internationale konventioner |
+| +3.50 | Udlændinge | Ansøgere om statsborgerskab skal screenes for antidemokratiske holdninger |
+| −3.47 | Social | Overførselsindkomsten til de fattigste kontanthjælpsmodtagere skal sættes op |
+| −3.45 | Skat | Skatten for de højeste indkomster skal sættes op |
+| +3.12 | Social | OK at ulighed stiger, så længe alle bliver rigere |
+| +3.04 | Skat | Selskabsskatten skal sænkes |
 
-The top 10 splits roughly evenly between economic questions (property tax, public transport, municipal equalisation, income tax) and immigration/cultural questions (deporting criminals, foreign aid, citizenship screening, school discipline). These two clusters load at nearly identical magnitude — 3 of the top 7 items are immigration-related. They cannot be separated by any orthogonal rotation, meaning that among Danish candidates, immigration attitudes and economic attitudes are so tightly correlated that they form a single dimension.
+As in the DR-only analysis, economic and immigration questions load at nearly identical magnitude and cannot be separated — 4 of the top 10 items are immigration or foreign-aid related. The combined model adds a new item from Altinget: corporate tax cuts (+3.04), which aligns with the existing right-wing economic cluster.
 
 #### Dim 2 — Reformisme / Populisme
 
-Top 10 questions by absolute loading on Dim 2 (Dim 1 loading shown for context):
+Top 10 questions by absolute loading on Dim 2, with Dim 1 loading for context (positive Dim 2 = populist):
 
 | Dim 2 | Dim 1 | Topic | Question |
 |---:|---:|---|---|
-| +2.34 | −1.57 | Økonomi | Folkepensionsalderen skal fortsat stige med levealderen |
-| −1.51 | −0.43 | Økonomi | Store Bededag skal genindføres som helligdag |
-| +1.68 | +1.50 | Økonomi | Åbn for mere udenlandsk arbejdskraft fra lande uden for Europa |
-| +1.50 | +0.54 | Regeringsdannelse | Det vil være bedst med en regering hen over midten |
-| −1.28 | −0.54 | Økonomi | Danmark bruger for mange penge på at støtte Ukraine |
-| −1.22 | −2.88 | Transport | Afgifter på benzin og diesel skal sænkes |
-| −1.14 | +3.11 | Skat | Skatten for de højeste indkomster skal sættes op |
-| −1.09 | +2.67 | Økonomi | Politikerne skal arbejde for at sætte arbejdstiden ned |
-| +1.09 | −3.16 | Social | OK at ulighed stiger, så længe alle bliver rigere |
-| +1.07 | +1.07 | Social | Vigtigere at skaffe ansatte til ældrepleje end at de taler dansk |
+| −2.14 | +1.46 | Økonomi | Folkepensionsalderen skal fortsat stige med levealderen |
+| −1.72 | −0.44 | Regeringsdannelse | Det vil være bedst med en regering hen over midten |
+| −1.66 | −1.31 | Økonomi | Åbn for mere udenlandsk arbejdskraft fra lande uden for Europa |
+| +1.57 | +0.31 | Økonomi | Store Bededag skal genindføres som helligdag |
+| −1.42 | +1.46 | Økonomi | Fremtidens ældrepleje skal sikres ved, at folk i job selv er med til at sikre |
+| +1.26 | +0.55 | Økonomi | Danmark bruger for mange penge på at støtte Ukraine |
+| +1.18 | +2.77 | Transport | Afgifter på benzin og diesel skal sænkes |
+| −1.17 | +3.04 | Skat | Selskabsskatten skal sænkes |
+| −1.09 | +3.12 | Social | OK at ulighed stiger, så længe alle bliver rigere |
+| +0.99 | −2.55 | Økonomi | Politikerne skal arbejde for at sætte arbejdstiden ned |
 
-Items with large Dim 1 loadings (income tax, working hours, inequality, benzin) are cross-loading — they appear here because there is residual variance on Dim 2 not explained by Dim 1. For example, "Skatten for de højeste indkomster" primarily loads on Dim 1 (+3.11) as an economic left–right question, but after controlling for that, candidates who favour higher top taxes also tend to score lower on Dim 2 (more populist). This makes sense: the reformist parties (Liberal Alliance, Moderaterne) oppose raising top income taxes, while populist parties on both sides are more sympathetic.
+The combined model strengthens the Dim 2 interpretation. Questions that primarily load on Dim 2 (small Dim 1): pension reform (−2.14), cross-party government (−1.72), Store Bededag (+1.57), Ukraine support (−1.26/+1.26), and a new Altinget item on self-funded eldercare (−1.42). High Dim 2 (top of plot) = populist: opposing pension reform, opposing cross-party government, supporting Ukraine criticism, wanting Store Bededag back. Low Dim 2 (bottom) = reformist: Moderaterne, Radikale, Liberal Alliance.
 
-The questions that primarily load on Dim 2 (small Dim 1) are pension reform, Store Bededag, Ukraine, and cross-party government — none of which are straightforwardly economic or immigration questions. This is the reformist/technocratic vs populist/protest dimension.
-
-Notably, Dansk Folkeparti is a strong outlier on Dim 2 (very low), sitting far from the rest of the right wing — captured here by their opposition to pension reform and Ukraine support rather than immigration stance (which loads on Dim 1, shared with most of the right).
+Cross-loading items (large Dim 1 and moderate Dim 2): benzin (+2.77/+1.18), corporate tax (+3.04/−1.17), foreign labour (−1.31/−1.66). After controlling for Dim 1, supporting lower corporate tax and lower benzin taxes is associated with being more populist — consistent with those being DF/DDem positions as well as LA positions.
 
 ## Reproducing
 
 ```bash
 pip install requests beautifulsoup4 girth numpy matplotlib scipy
 
-# Scrape all candidates (~5 min, resumable)
+# Scrape DR candidates (~5 min, resumable)
 python scrape.py
 
-# Fit the IRT model and generate the plot (~1 min)
-python analyze.py
+# Scrape Altinget candidates (~2 min)
+python scrape_altinget.py
 
-# Re-plot from saved abilities.csv (instant)
-python plot.py
+# Combine both sources into combined/
+python combine.py . altinget --out combined
+
+# Fit the IRT model (~1 min)
+python analyze.py combined
+
+# Generate political compass
+python plot.py combined
 ```
 
 > **Note:** `girth 0.8.0` uses the deprecated `scipy.stats.mvn.mvnun` API (removed in SciPy 2.0). Two patches are required for newer SciPy — see comments in the source for details.

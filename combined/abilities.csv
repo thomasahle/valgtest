@@ -1,0 +1,879 @@
+name,party,dim1,dim2
+Asbjørn Reissmann,Socialdemokratiet,-0.36481507993124057,0.6104531086391388
+Yildiz Akdogan,Socialdemokratiet,-0.44576907455949843,0.39489442287706145
+Sophie Hæstorp Andersen,Socialdemokratiet,-0.32065470158066833,0.5685318460095223
+Ida Auken,Socialdemokratiet,-0.3723818044262522,0.345627875741525
+Stig Ekman,Socialdemokratiet,-1.010377439564529,0.48477306558091227
+Camilla Hoffmann,Socialdemokratiet,-1.2435954356643952,0.3648792793298177
+Peter Hummelgaard,Socialdemokratiet,-0.23682821019904082,0.7373986467060265
+Erik Jensen,Socialdemokratiet,-0.4226111996529286,0.41258084703699477
+Mette Reissmann,Socialdemokratiet,-0.3454426079364539,-0.11084933438927427
+Marcus Vesterager,Socialdemokratiet,-0.6541803698250682,0.39971888975543995
+Anne-Sofie Sadolin,Radikale Venstre,-0.39520337171525494,-0.3429201518631816
+Samira Nawa,Radikale Venstre,-0.7655168141803883,-0.8103017117085838
+Thomas Rohden,Radikale Venstre,-0.5460956802781042,-0.5862338414112216
+Frederik Rosberg,Radikale Venstre,-0.46358134075307833,-0.28989913485292956
+Magnus Georg Jensen,Radikale Venstre,-0.6571470805065944,-0.22252758771716355
+Maria Georgi Sloth,Radikale Venstre,-0.9374001144315104,-0.6172071827414556
+Thomas Markmann,Radikale Venstre,-0.4994854549261606,-0.14111042388405184
+Emil Moselund,Radikale Venstre,-0.7171251970183433,-0.4664186176796722
+Helene Langager,Radikale Venstre,-0.4525210440940216,-0.04205507243438554
+Marianne Mortensen,Radikale Venstre,-0.9813370826100222,-0.35395267592200536
+Mikkel Senna Odoom,Radikale Venstre,-0.405487982490734,-0.22931129671837938
+Julie Herdal,Radikale Venstre,-1.0495233140170177,0.16391081447919745
+Line Ervolder,Det Konservative Folkeparti,0.22856202823408062,0.4358586980285461
+Lasse Vogel Andersen,Det Konservative Folkeparti,0.4949654059621124,0.09021078684152703
+Pernille Birch,Det Konservative Folkeparti,0.3516248710169364,0.22834842183479895
+Rasmus Bjergegaard,Det Konservative Folkeparti,0.15555345704054657,0.24651278132054685
+Helle Bonnesen,Det Konservative Folkeparti,0.383476052513161,-0.1760619767268821
+Nikolaj Bøgh,Det Konservative Folkeparti,0.3534333720131175,0.20082166763867693
+Helene Fagerhøj,Det Konservative Folkeparti,0.15753993956047332,0.26157826575377097
+Carina Høedt,Det Konservative Folkeparti,-0.02418204410363276,-0.15263038831821021
+Anders Havelund Krøyer,Det Konservative Folkeparti,0.5770902858447202,-0.10441805137716638
+Niels Peder Ravn,Det Konservative Folkeparti,0.8741640275679501,0.904032906790915
+Anders Storgaard,Det Konservative Folkeparti,-0.02652737272627268,-0.3055216376099546
+Mia Tang,Det Konservative Folkeparti,0.8010840275662159,0.19754257286880691
+Lisbeth Bech-Nielsen,SF - Socialistisk Folkeparti,-1.0903827514963296,1.4823144371384929
+Carl Valentin,SF - Socialistisk Folkeparti,-1.8805413571748038,2.0609305429679674
+Nanna Bonde,SF - Socialistisk Folkeparti,-1.2602209910797666,1.6407090783240819
+Sadek Al-Amood,SF - Socialistisk Folkeparti,-0.8824595121931769,1.445157357861521
+Halime Oguz,SF - Socialistisk Folkeparti,-0.6182700743882718,1.731989601381128
+Kasper Nordborg Kiær,SF - Socialistisk Folkeparti,-0.5555372763057129,0.7109975073827318
+Rune Palm,SF - Socialistisk Folkeparti,-1.0576610820584347,0.737713221765516
+Cecilie Louise Balbay Holdt,SF - Socialistisk Folkeparti,-1.4314549220188144,1.7702366121480153
+Mikkel Sammy Christensen,SF - Socialistisk Folkeparti,-1.3729236525338564,1.1924107706279659
+Bjarke Bisgaard Yolal,SF - Socialistisk Folkeparti,-1.2220925405388445,2.2515458157787704
+Rikke Hansen,Borgernes Parti - Lars Boje Mathiesen,0.857809498199944,1.9251180175627878
+Flemming Steenlykke,Borgernes Parti - Lars Boje Mathiesen,0.9366980538212711,1.7348438312187242
+Mads Strange,Liberal Alliance,1.075970307103259,0.613188926573675
+Ole Birk Olesen,Liberal Alliance,1.0370552244162492,-0.6484854801247947
+Alexander Ryle,Liberal Alliance,0.4895211492011836,-0.5608978933946807
+Merete Riisager,Liberal Alliance,0.7812104955892807,0.9350890091906585
+Per Nørgaard Andersen,Liberal Alliance,0.6370137468114051,-0.614999894728435
+Charlotte Nellemann,Liberal Alliance,1.0609998828913623,0.4594426346822558
+Line Østergaard Olsen,Liberal Alliance,1.1329001443299511,-0.1964642980136827
+Laura Emilie Fabricius-Lauritzen,Liberal Alliance,1.0450118251222225,-0.33045202492336256
+Torben Guldbæk,Liberal Alliance,0.7751922752133987,-0.25124951056787737
+Nanna W. Gotfredsen,Moderaterne,-0.22679732560512608,-0.7779384996407573
+Jakob Engel-Schmidt,Moderaterne,0.043521535645277123,-0.8632029638421138
+Ellen Emilie,Moderaterne,-0.28520078963453815,-0.5962873678105489
+Mads Sebbelov,Moderaterne,0.05380017922745488,-0.3929291961035172
+Ali Qais,Moderaterne,0.07395349787459325,0.5423791943793015
+Lisbeth Dam Larsen,Moderaterne,-0.3200193338420049,-1.0440627171990913
+Allan Feldt,Dansk Folkeparti,1.064479402708938,2.482190752402218
+Merete Dea Larsen,Dansk Folkeparti,0.6674803486623166,2.3986614301862184
+Paw Karslund,Dansk Folkeparti,0.4464909612363119,2.531095799819943
+Denise Rostgaard,Dansk Folkeparti,0.7591876601594519,2.431415652472648
+Claus Buch,"Venstre, Danmarks Liberale Parti",0.47317589076775357,0.157368800426023
+Zeynep Bardakci,"Venstre, Danmarks Liberale Parti",0.6251153420055986,0.22542559458227424
+Anders Fausbøll,"Venstre, Danmarks Liberale Parti",0.36262007195712176,-0.33420227879026604
+Jan E. Jørgensen,"Venstre, Danmarks Liberale Parti",0.5481937486750111,-0.27241421136444305
+Natascha Remvig,"Venstre, Danmarks Liberale Parti",0.5451934958085344,-0.12560452262926922
+Malene Sandfeld,"Venstre, Danmarks Liberale Parti",0.7491337763495979,0.13751267136264092
+Linea Søgaard-Lidell,"Venstre, Danmarks Liberale Parti",0.4886171287468418,-0.25295636001411187
+Benny Bindslev,Danmarksdemokraterne ‒ Inger Støjberg,1.2199809755440767,2.480198064927807
+Martin Sibast,Danmarksdemokraterne ‒ Inger Støjberg,0.8757390239548625,0.9069508907306533
+Eva Bechmann,Danmarksdemokraterne ‒ Inger Støjberg,0.9688196612086155,2.1137861330502323
+Leila Stockmarr,Enhedslisten – De Rød-Grønne,-2.2045049975090625,1.8627318292662192
+Pelle Dragsted,Enhedslisten – De Rød-Grønne,-1.1730165568349364,1.3946249385368892
+Rosa Lund,Enhedslisten – De Rød-Grønne,-2.208429272287226,2.5843612914597687
+Pil Christensen,Enhedslisten – De Rød-Grønne,-1.297195352651285,1.4143908127992868
+Mathilde Vinther,Enhedslisten – De Rød-Grønne,-1.8625457182297653,1.8078518204909717
+Charlotte Lund,Enhedslisten – De Rød-Grønne,-1.5546356786723219,1.4811716034093236
+David Rønne,Enhedslisten – De Rød-Grønne,-2.9729685116181415,1.8310020077428717
+Pil Yildiz,Enhedslisten – De Rød-Grønne,-1.2093612300250611,1.6420342452151788
+Kim Larsen,Enhedslisten – De Rød-Grønne,-0.8523246727407763,1.0640553790818565
+Mette Bloch Hansen,Enhedslisten – De Rød-Grønne,-1.193846114879619,1.516970245069323
+Maria Sofie Petersen,Enhedslisten – De Rød-Grønne,-2.3448803483252654,1.7001550141008168
+Reinout Bosch,Enhedslisten – De Rød-Grønne,-2.503413582264285,1.3952588737547922
+Franciska Rosenkilde,Alternativet,-1.2309152269256705,0.675148582453081
+Qasam Nazir Ahmad,Alternativet,-1.8432476295025142,0.7434229021567981
+Catharina Næsby Malkki,Alternativet,-0.7898525198420056,0.7323691422623975
+Jiesper Tristan Pedersen,Alternativet,-1.1992000012471913,0.5133585412019609
+Jan Kristoffersen,Alternativet,-0.807732775494365,0.5442039021861111
+Roger Courage Matthisen,Alternativet,-1.92333599370982,1.028892059029466
+Vibeke Frost,Alternativet,-1.9815514966953116,1.0713534816173955
+Anders Sørensen,Alternativet,-2.4059545224292305,1.5314841429265735
+Mette Bram,Alternativet,-0.8383565374925978,0.39397777241052745
+Peter Martin Jakobsen,Alternativet,-2.119775702119208,1.127333551193824
+Nikolai Eskild Jensen,Alternativet,-1.5926376663032469,0.8382760515097897
+Mikkel Bahl,Alternativet,-2.452464914103111,1.1319834800112833
+Noah Sturis,Alternativet,-0.7190765291045353,0.33879459907475507
+Jakob Ravn Karlsen,Alternativet,-1.359159030888293,0.9616919498314686
+Jan Schumann,Alternativet,-0.7647904344225361,1.2204650585420878
+Lise Coermann,Alternativet,-1.1356670445580939,1.0733500643105702
+Theresa Scavenius,Uden for parti,-0.5611094080438213,0.12096242418220288
+Rashid Ali,Uden for parti,-0.8256827926463199,-0.4881685248193279
+Rasmus Paludan,Uden for parti,0.40398413693895063,1.995422676484416
+Thomas Skriver Jensen,Socialdemokratiet,-0.2582135369057913,1.318460659752712
+Trine Bramsen,Socialdemokratiet,-0.16112009296583166,1.0036100046338952
+Bjørn Brandenborg,Socialdemokratiet,0.007287849228727943,0.977616357004409
+Jeppe Bruus,Socialdemokratiet,-0.1575483853250587,0.9306757513702297
+Sara Emil Baaring,Socialdemokratiet,-0.033241330718471455,1.2036519023347259
+Maria Gudme,Socialdemokratiet,-0.459590417553851,1.0834475750987598
+Lasse Haugaard Pedersen,Socialdemokratiet,-0.21590163551765487,1.6215525425206219
+Kim Aas,Socialdemokratiet,-0.4116942652737083,0.4895865013405834
+Kim Lei-Jensen,Radikale Venstre,-0.9412089201053029,-0.5394433399289442
+Anastasia Milthers,Radikale Venstre,-0.6860338296051988,0.17153123130374298
+Jan Werner Mathiasen,Radikale Venstre,-0.6533090826958822,-0.3146922494330257
+Jakob Larsen,Radikale Venstre,-0.7963922444818523,-0.6953348918470711
+Mai Mercado,Det Konservative Folkeparti,0.8301382625542927,0.7409839573568104
+Joachim Hoffmann-Petersen,Det Konservative Folkeparti,0.6483868957656364,0.5985476765117008
+John Hoppe,Det Konservative Folkeparti,0.19509141085836887,0.4139998120324077
+Tobias Bennedsen,Det Konservative Folkeparti,0.29769127295378933,0.9518325007059697
+Anne Fiber,Det Konservative Folkeparti,-0.3222596766910366,0.024758868880340616
+Natasja Bruun Knudsen,Det Konservative Folkeparti,0.6185612324614225,0.6415574290773387
+Klavs Norup Lauridsen,Det Konservative Folkeparti,0.0972327025046391,0.37405337685296813
+Johan Emil Sevelsted,Det Konservative Folkeparti,1.029276247291865,0.47288736798565534
+Lise Müller,SF - Socialistisk Folkeparti,-0.6771294360446285,1.9763581127172904
+Karsten Hønge,SF - Socialistisk Folkeparti,-0.7329744438549086,2.193284242686291
+Suzette Frovin,SF - Socialistisk Folkeparti,-1.3050872143423646,0.9541946524789117
+Simon Meyer Off,SF - Socialistisk Folkeparti,-1.0664053264249516,1.7567657465690145
+Nynne Printz,SF - Socialistisk Folkeparti,-0.9023006356018601,1.3278669409395982
+Lars Nissen,SF - Socialistisk Folkeparti,-1.246750888843377,1.3448373823666309
+Laura Elise Andersen-Mühl,SF - Socialistisk Folkeparti,-1.3839011238198302,1.018695830487713
+Linda Bollerup,SF - Socialistisk Folkeparti,-0.6567311258503634,1.2969738008664178
+Johannes Skov Pedersen,SF - Socialistisk Folkeparti,-1.2291656626025214,1.6415676098402885
+Anna Katrine Leth Rehn,SF - Socialistisk Folkeparti,-0.564712764378679,1.225316531997124
+Charlotte Ellenberger,SF - Socialistisk Folkeparti,-0.7704929981376859,1.8432438767989763
+Allan Holm,Borgernes Parti - Lars Boje Mathiesen,1.0173603522961452,0.585385395464303
+Daniel Juhl,Borgernes Parti - Lars Boje Mathiesen,1.1877655763185102,2.1549563850192732
+Charlotte Møller-Madsen,Borgernes Parti - Lars Boje Mathiesen,0.5474129222188435,2.101026865838605
+Anja Busch,Borgernes Parti - Lars Boje Mathiesen,1.0370204457251582,1.956212512358808
+Katrine Daugaard,Liberal Alliance,0.9862734121362692,0.3087357784284837
+Malte Jäger,Liberal Alliance,1.768294757824805,1.0031316551500817
+Pia Offer Madsen,Liberal Alliance,0.9329355776194869,0.3321303123478475
+Thomas Estrup,Liberal Alliance,0.8772232321210128,-0.030537673788236564
+Gustav Wilde,Liberal Alliance,1.0180688118844428,0.6014653047983128
+Araz Khan,Liberal Alliance,0.9032872787792808,0.2485932819640747
+Rosa Eriksen,Moderaterne,-0.014392316233597392,-1.2212940498111626
+Lars Aagaard,Moderaterne,-0.1766344934396007,-1.0971888566948405
+Andreas Lausen,Moderaterne,-0.21353636060007866,-0.9030115123237495
+Camilla Schuster Nygaard,Moderaterne,-0.02031097719698835,-1.1932540525195983
+Alex Ahrendtsen,Dansk Folkeparti,1.404180029122662,2.2142415792909853
+Tobias Weische,Dansk Folkeparti,1.323559156892359,2.9408345916347924
+Romeo Troelsgaard,Dansk Folkeparti,0.9137108128899718,2.8984342840856057
+Anne Møllegaard Mortensen,Dansk Folkeparti,0.4789147280032546,2.2079404876169653
+Niels Bolding,Dansk Folkeparti,0.6503217377891721,2.357659395694327
+Sofie Mosgaard,"Venstre, Danmarks Liberale Parti",0.23500037539423418,-0.11253361198228301
+Marlene Ambo-Rasmussen,"Venstre, Danmarks Liberale Parti",0.48555184702079274,0.8064301533186142
+Amanda Heitmann,"Venstre, Danmarks Liberale Parti",0.6174091885708657,0.562820435349034
+Nikolaj Leed Henriksen,"Venstre, Danmarks Liberale Parti",0.2579571962215797,-0.7135733216146442
+Andreas Fjord Larsen,"Venstre, Danmarks Liberale Parti",0.6221198605999961,0.12676859301902427
+Anja Lund,"Venstre, Danmarks Liberale Parti",0.7721513071567113,0.32119310429288167
+Claus Oxfeldt,"Venstre, Danmarks Liberale Parti",0.7157643142259036,0.021776688978437708
+Torben Povlsen,"Venstre, Danmarks Liberale Parti",0.8386403926566018,0.34030838259201074
+Jens Henrik W. Thulesen Dahl,Danmarksdemokraterne ‒ Inger Støjberg,0.7273693802418065,1.5071466805146931
+Vivian Lindberg Larsen,Danmarksdemokraterne ‒ Inger Støjberg,0.9115633833128968,1.8594048391911193
+Nikolaj Vang,Danmarksdemokraterne ‒ Inger Støjberg,0.8684076307657432,1.6767624601312734
+Reza Javid,Enhedslisten – De Rød-Grønne,-2.0630714476529244,2.4478184938669454
+Victoria Velásquez,Enhedslisten – De Rød-Grønne,-1.2661724088718342,2.0641599639920916
+Jesper Kiel,Enhedslisten – De Rød-Grønne,-1.6636512602125892,2.116017368281875
+Vibeke Syppli Enrum,Enhedslisten – De Rød-Grønne,-2.2486795453237685,1.3436978179495953
+Torsten Ringgaard,Enhedslisten – De Rød-Grønne,-3.1635767294389634,1.6810854635948942
+Kaj Alstrup,Enhedslisten – De Rød-Grønne,-1.8247373751182536,1.6005180943138624
+Mette Skaarup,Enhedslisten – De Rød-Grønne,-1.904422180886954,1.4690180242393955
+Stine Øllegaard,Enhedslisten – De Rød-Grønne,-1.1597083418586573,1.8578144796951042
+Linda Frølund,Alternativet,-0.8525385652973367,0.5150018743256869
+Jacob Holm,Alternativet,-1.3241547775017213,1.093732845521919
+Stine Larsen,Alternativet,-1.8551026967471818,1.112927950777779
+Maria Dalum,Alternativet,-1.0570057794876704,0.9552031111551105
+Ole Dupont Kofod,Alternativet,-0.8038172407904058,1.2787890024525688
+Matilde Skov-Hansen,Alternativet,-2.005797928464767,0.6771093866507172
+Bodil Helbo,Alternativet,-1.2036489682179539,1.2898170901785044
+Martin Kjærulff,Alternativet,-1.2929402714348541,0.9155244925375221
+Matilde Powers,Socialdemokratiet,-0.44859063674908767,1.0885326468074148
+Fie Hækkerup,Socialdemokratiet,-0.22611351105676486,0.3802795434681867
+Louise Mehnke,Socialdemokratiet,-0.47622179259422553,0.4156833781102966
+Henrik Møller,Socialdemokratiet,-0.3452579118588149,0.2190652438915702
+Søren Rye,Socialdemokratiet,-0.5804987450852538,-0.34942162369436053
+Rasmus Stoklund,Socialdemokratiet,0.020090522310165462,0.8913232275853341
+Tine Hessner,Radikale Venstre,-0.6466067995078488,-0.9081489348576511
+Martin Lidegaard,Radikale Venstre,-0.8737190423416713,-0.6505082520638739
+Christian Elkjær,Radikale Venstre,-0.5110030086671183,0.1562460310143786
+Christina Thorholm,Radikale Venstre,-0.6116894521439186,0.07286458504024443
+Hediye Temiz,Radikale Venstre,-0.7744035838016096,-0.9463697385745374
+Mikkel Westh Jepsen,Radikale Venstre,-0.37347308878724667,-0.547624463390057
+Freja Eva Lockenwitz,Radikale Venstre,-0.6187844534719583,0.014520054129387535
+Daniel Drefeld,Det Konservative Folkeparti,0.410036834063751,0.1625701979363107
+Mette Abildgaard,Det Konservative Folkeparti,0.8617668508510409,0.05032433576958293
+Birgitte Bergman,Det Konservative Folkeparti,0.48329055217199623,0.35235080795293994
+Frederik Germann,Det Konservative Folkeparti,0.6394665489396167,1.1644523626248926
+Emma Juul Hansen,Det Konservative Folkeparti,0.400107955789447,0.2952560191382958
+Egil Hulgaard,Det Konservative Folkeparti,0.23310012501783925,-0.17512641908294185
+Jacob Mark,SF - Socialistisk Folkeparti,-0.9733179690188367,2.2809378475657076
+Marianne Bigum,SF - Socialistisk Folkeparti,-0.34095583051117323,1.0107532395113739
+Emil Nielsen,SF - Socialistisk Folkeparti,-1.0207684655183433,0.8715487829516183
+Anja Rosengreen,SF - Socialistisk Folkeparti,-0.3486650014398531,0.6079115455974158
+Anna Poulsen,SF - Socialistisk Folkeparti,-0.9002929867851741,0.5629352019459722
+Stina Egedius Miller,SF - Socialistisk Folkeparti,-0.8123852390300004,0.5154920720107699
+Elias Julius Binggeli,SF - Socialistisk Folkeparti,-1.7870739565746234,1.528393338256935
+Jens Skov,SF - Socialistisk Folkeparti,-1.3580092381492337,1.3206545683193762
+Peter Faber,Borgernes Parti - Lars Boje Mathiesen,1.274574576852399,1.9626921429129274
+Martin Nordstjerne,Borgernes Parti - Lars Boje Mathiesen,1.7151463798830033,1.8998907855258238
+Emilie Schytte,Borgernes Parti - Lars Boje Mathiesen,1.1457234028401007,1.877275394899357
+Steffen W. Frølund,Liberal Alliance,1.4633149592419223,-0.27484464340423176
+Christopher Arzrouni,Liberal Alliance,0.9476698746526618,-0.17866623663688136
+Chelle Lilly Albøge,Liberal Alliance,1.154440890287161,0.3147104530264724
+Philip Solberg,Liberal Alliance,1.1069072648921967,0.20056567167014466
+Lars Høyer Holmqvist,Liberal Alliance,0.7776771197148651,0.43097057685009243
+Sten Schmidl Søbjærg,Liberal Alliance,0.7087049805985615,-0.20808237310975441
+Robert Mørck,Liberal Alliance,0.33288695122750384,0.058580012174890964
+Steffen Sjørslev,Liberal Alliance,1.3477315349338563,-0.47371211021082743
+Kira Danholm,Liberal Alliance,1.2747624740868764,0.5276791511169251
+Steen Tofteng,Liberal Alliance,0.9687847378173718,0.3756338303493969
+Rasmus Lund-Nielsen,Moderaterne,0.075932657907955,-0.5719179507078187
+Pernille Christensen,Moderaterne,-0.19126219966113217,-1.0229904034663804
+Andreas Raben,Moderaterne,-0.3426229409398434,-0.6753597313860005
+Charlotte Haagendrup,Moderaterne,-0.0022335636400667032,-0.5551171329231783
+Mette Thiesen,Dansk Folkeparti,0.8570555020652798,2.129200609680948
+Gert Løfgren,Dansk Folkeparti,0.865064430659465,2.2970507419124444
+Jette Juul,Dansk Folkeparti,0.7159697647343289,2.358903362468177
+Pia Adelsteen,Dansk Folkeparti,0.7881790312830549,2.5857526685014443
+Mikkel Hartwich,Dansk Folkeparti,0.5356528682570079,2.266277188096836
+Brian Lyck Jørgensen,Dansk Folkeparti,0.4722817253884387,2.48263447820155
+Ulla Kokfelt,Dansk Folkeparti,0.7884733527911716,2.2948255680576874
+Sophie Løhde,"Venstre, Danmarks Liberale Parti",0.712628948402884,0.05404819431172398
+Katarina Ammitzbøll,"Venstre, Danmarks Liberale Parti",0.27036513689144587,-0.2592686035275672
+Hans Andersen,"Venstre, Danmarks Liberale Parti",0.72313543229824,0.055909192091165356
+Marianne Lynghøj,"Venstre, Danmarks Liberale Parti",0.28375630560413545,-0.19696096614167677
+Annette Rieva,"Venstre, Danmarks Liberale Parti",0.38779728496376,-0.1027774797705569
+Tue Villebro,"Venstre, Danmarks Liberale Parti",0.3205171374974263,-1.163110870968715
+Maibritt Nielsen,Danmarksdemokraterne ‒ Inger Støjberg,1.1802600356124175,2.0910308402668925
+Marlene Harpsøe,Danmarksdemokraterne ‒ Inger Støjberg,0.618270914053654,1.8005605116917116
+Lars Bregnbak,Danmarksdemokraterne ‒ Inger Støjberg,0.5137739371963489,1.5476639193072446
+Katrine Schiller,Danmarksdemokraterne ‒ Inger Støjberg,1.0205208661479952,1.987992994351229
+Carolina Cámara,Enhedslisten – De Rød-Grønne,-1.5634604428741208,1.4958866878187067
+Sinem Dybvad Demir,Enhedslisten – De Rød-Grønne,-2.0486750386736805,1.8085927895223441
+Christoffer Emil Jexen,Enhedslisten – De Rød-Grønne,-1.2576470107252737,1.164824554502843
+Emil Andersen,Enhedslisten – De Rød-Grønne,-0.5475756668106513,0.5371384760875301
+Annie Hagel,Enhedslisten – De Rød-Grønne,-1.3727758531171055,0.5793445213778308
+Rasmus Petersen,Enhedslisten – De Rød-Grønne,-1.8543585431600256,1.808148466607339
+Helene Brydensholt,Alternativet,-1.293037685000755,0.851938165506332
+Rasmus Harning,Alternativet,-2.682670132607889,0.8496573800095909
+Tine Loft Thomsen,Alternativet,-1.2501546676311532,0.9753836618156292
+Simon Rigét,Alternativet,-0.7683432301333091,0.812154710767019
+Nanna Høyrup,Alternativet,-1.6086162328797022,1.3852924630292278
+Morten Hvidberg Greve,Alternativet,-0.48695594093917355,0.2092708020342915
+Salik Anders Rosing,Alternativet,-1.1784857240135516,0.5847849480609543
+Ingrid Heintz,Alternativet,-0.9503925207425764,1.0291959698294817
+Sofie de Bretteville,Socialdemokratiet,-0.2621401821672952,0.5775931418854028
+Magnus Barsøe,Socialdemokratiet,-0.15411363765072775,0.7412856305130238
+Morten Bødskov,Socialdemokratiet,-0.0690470178742398,0.5666850307085014
+Maria Durhuus,Socialdemokratiet,-0.49114732455964444,1.0438034962475924
+Mattias Tesfaye,Socialdemokratiet,-0.0270017842178254,0.5935902867113488
+Jens Anton Tingstrøm,Socialdemokratiet,-0.5207840924299433,0.6246780977714166
+Vibeke Westh,Socialdemokratiet,-0.7468559419144997,0.5883736152174708
+Gunvor Wibroe,Socialdemokratiet,-1.0606192947006525,1.2952169319551974
+Lars Green Bach,Radikale Venstre,-0.6484982005701956,-0.7691152512672599
+Stinus Lindgreen,Radikale Venstre,-0.8589513612312796,-0.5789845994302556
+Christina Falkberg,Radikale Venstre,-0.7325513506289643,0.04906722372274306
+Isabel Havndrup Aackmann,Radikale Venstre,-0.8345195341300663,-0.4620327367989928
+Ruben Kidde,Radikale Venstre,-0.470885862404543,-0.5295818005528025
+Trine Dybkjær,Radikale Venstre,-0.31073861023590654,-0.0025629026678236043
+Brian Køster,Radikale Venstre,-0.8052820887428285,-0.8660403318252636
+Esat Senturk,Radikale Venstre,-0.4732381312853389,0.12472093110029767
+Kashif Ahmad,Radikale Venstre,-1.3730702384313624,0.8351206819583279
+Jens Frost,Radikale Venstre,-0.9060816133712288,-0.41246741375170043
+Zohair Ali,Radikale Venstre,-0.4044512076580756,0.10385752720506962
+Dorte Vilhelmsen,Det Konservative Folkeparti,0.4915553652725951,0.5981880798036403
+Julie Ahlefeldt-Laurvig,Det Konservative Folkeparti,0.3112858082642406,0.08977526585582117
+Isabella Arendt,Det Konservative Folkeparti,-0.03606810904423291,-0.8328434588226191
+Magnus Von Dreiager,Det Konservative Folkeparti,0.31044119861052744,0.08920403996897254
+Tina Cartey Hansen,Det Konservative Folkeparti,0.20298685255172969,0.6856878995819431
+Jette Larsen,Det Konservative Folkeparti,0.15734059766803668,-0.016948607022815913
+Sigurd Hebo Lønholdt,Det Konservative Folkeparti,0.6345657299974863,-0.055027116671894936
+Christian Vigilius,Det Konservative Folkeparti,0.30161888486576705,0.3448564731166411
+Taner Genc,SF - Socialistisk Folkeparti,-1.0760294807205586,1.5428837005296012
+Sigurd Agersnap,SF - Socialistisk Folkeparti,-1.4514756702067713,2.106869192460743
+Vivi Nør Jacobsen,SF - Socialistisk Folkeparti,-0.7114052296264504,1.3901500777583635
+Sofie F. Villadsen,SF - Socialistisk Folkeparti,-0.8717078969327952,1.4835231463001521
+Helene Brochmann,SF - Socialistisk Folkeparti,-1.4439963182666669,1.9987229155800519
+Troels Stru Schmidt,SF - Socialistisk Folkeparti,-0.7618105266175679,0.4279959439046958
+Niels Haxthausen,SF - Socialistisk Folkeparti,-1.7670899563484166,1.211652316088895
+Alexander Bruhn Skjøth,SF - Socialistisk Folkeparti,-0.7048975291986093,1.2685080783687162
+Morten Dehn,Borgernes Parti - Lars Boje Mathiesen,0.9041074935313044,1.533683903453245
+Mathias Fuglsang,Borgernes Parti - Lars Boje Mathiesen,0.7979012494810644,1.822488903370178
+Frederik Lundberg,Borgernes Parti - Lars Boje Mathiesen,1.548427593959181,1.5527056673543411
+Allan Orland,Borgernes Parti - Lars Boje Mathiesen,0.9353546196499132,1.268459557511635
+Jonas Juhl,Liberal Alliance,1.2744902900809336,-0.2360994782367391
+Freja Brandhøj,Liberal Alliance,0.912777056958393,0.510820074768456
+Hanne Bjørn,Liberal Alliance,0.9462776420568131,-0.05738706761685348
+Jacqueline Kristensen,Liberal Alliance,0.756765876872485,-0.14568119275257357
+Patrizia Venturelli Christensen,Liberal Alliance,0.8001660103513468,0.03450208333951876
+Michael Melchert,Liberal Alliance,0.6916157935099225,0.7218229539269913
+Frank Clausen,Liberal Alliance,0.7595940925852211,-0.23226197337284912
+Özkan Kocak,Moderaterne,-0.042789007519636,-0.6214475243230515
+Monika Rubin,Moderaterne,-0.21076502910081454,-1.5106006115260375
+Dorthe Beck-Nyling,Moderaterne,-0.03814600834305042,-1.3139677950154476
+Betina Asbæk,Moderaterne,0.023258794661213358,-0.8672258723375589
+Frederik Lau Petersen,Moderaterne,-0.04411016872997008,-1.1457842502310753
+Karan Khosla,Moderaterne,-0.019338896298930888,-0.6147337693630912
+Zishan Ali,Moderaterne,-0.08946120281104442,-0.5337666141176051
+Mikkel Bjørn,Dansk Folkeparti,0.6243930036816671,2.229122379799134
+Hans Blaaberg,Dansk Folkeparti,0.9980462720301789,2.5016839617467648
+Mikkel Dencker,Dansk Folkeparti,0.9853735369688944,2.851868802036208
+Kim Hammer,Dansk Folkeparti,1.4733005181226508,3.622581241616744
+Tenna Røberg,Dansk Folkeparti,0.8802629338378762,2.4663010030609374
+Zandra Thulstrup Pihl,Dansk Folkeparti,1.2620999558671413,2.3529902360034423
+Michael Jensen,Dansk Folkeparti,0.83221134445246,3.0729927644747184
+Kim Valentin,"Venstre, Danmarks Liberale Parti",0.28586809550282555,-0.4406099398543189
+Christopher Blomsterberg-Thaysen,"Venstre, Danmarks Liberale Parti",0.9588925033332992,0.5742339740823309
+Marie Brixtofte,"Venstre, Danmarks Liberale Parti",0.26515916786049487,-0.36465326391032904
+Luise Hjortebjerg,"Venstre, Danmarks Liberale Parti",0.47413815759676103,0.09550169271545246
+Maria Ladegaard,"Venstre, Danmarks Liberale Parti",0.5168388704609769,-0.2820023786772969
+Anders Bo Larsen,"Venstre, Danmarks Liberale Parti",0.2715647469447632,0.19302911694847613
+Astrid Søborg,"Venstre, Danmarks Liberale Parti",0.41595571013764315,0.16695114490962593
+Ricki Vejsmose,"Venstre, Danmarks Liberale Parti",0.2210226781234824,0.405320177294412
+Susanne Damsgaard,Danmarksdemokraterne ‒ Inger Støjberg,1.141843092942622,1.8952084223996046
+Sebastian Mylsted,Danmarksdemokraterne ‒ Inger Støjberg,1.361198192019622,2.1141608134466323
+Charlotte Munch,Danmarksdemokraterne ‒ Inger Støjberg,1.0483419405431127,1.7694946960969262
+Helge Bo Jensen,Enhedslisten – De Rød-Grønne,-2.4615867992010148,1.9963131359221227
+Ibrahim Benli,Enhedslisten – De Rød-Grønne,-1.717541450139442,1.2110550444436858
+Clara Turms,Enhedslisten – De Rød-Grønne,-3.383708099454697,1.6436278209939095
+Fatih Baran,Enhedslisten – De Rød-Grønne,-2.800601219120628,1.4539512549722928
+Emil Viskum,Enhedslisten – De Rød-Grønne,-2.1824192126609736,1.4782908708867597
+Caroline Lochow,Enhedslisten – De Rød-Grønne,-2.0204923410583637,1.9210359036019788
+Bianca Vitting,Enhedslisten – De Rød-Grønne,-2.000472130393151,1.6760820340897424
+Sune Rastad Bahn,Enhedslisten – De Rød-Grønne,-2.923526901370737,1.813716288561525
+Signe Wenneberg,Alternativet,-1.3685123046182237,0.955083269881487
+Tim Wodskou,Alternativet,-2.287503418745346,1.019519206894049
+Thomas Anker,Alternativet,-2.443501182907964,0.5993315493475063
+Jesper Callesen,Alternativet,-1.4060448822259297,1.5520620377487149
+Peter Samir,Alternativet,-0.9711064296900429,-0.9933760591936666
+Nana Løcke Buttenschøn,Alternativet,-0.6161464107243356,1.6142391632592177
+Thomas Lindqvist,Alternativet,-0.8463766446381914,-0.014685071063960123
+Christian Rabjerg Madsen,Socialdemokratiet,-0.24643074581213026,0.5605589833185253
+Benny Engelbrecht,Socialdemokratiet,-0.08679923598553677,0.676748936779678
+Kim Eskesen,Socialdemokratiet,-0.44375370513433227,1.0567713626457214
+Theis Kylling Hommeltoft,Socialdemokratiet,-0.2942903451288419,0.05218525113711981
+Anders Kronborg,Socialdemokratiet,-0.5778264218484582,1.4419517878890225
+Anne Catherine Hoxcer Nielsen,Socialdemokratiet,-0.9264861913812574,1.9660901245260496
+Lars Rømer Olsen,Socialdemokratiet,-0.10614842506697256,1.3441949251548
+Jesper Petersen,Socialdemokratiet,-0.252820239377066,0.9090074398227843
+Maria Radoor,Socialdemokratiet,-0.13243239242960086,0.7013244720485867
+Kris Jensen Skriver,Socialdemokratiet,-0.17060804603501903,0.6714506597656779
+Birgitte Vind,Socialdemokratiet,-0.4323544228893363,0.8680449579303189
+Lotte Rod,Radikale Venstre,-0.9521995172998633,0.01821876024904576
+Anne Marie Geisler Andersen,Radikale Venstre,-0.8527947734834761,-0.04015065260889775
+Nils Sjøberg,Radikale Venstre,-0.7313203289619374,0.19118668003188435
+Ole Lynggaard Jørgensen,Radikale Venstre,-0.6099985191642066,-0.7643988306811378
+Finn Hartvig Nielsen,Radikale Venstre,-1.1618429691829135,-0.658408255602171
+Lasse Skov Ovesen,Radikale Venstre,-0.3941092361463519,-0.9969930587842922
+Barbara Krarup Hansen,Radikale Venstre,-0.8909045787900051,0.2711121331224508
+Nicholas Wentworth,Radikale Venstre,-1.0742060364283534,-0.8967021127915848
+Morten Trillingsgaard Høybye,Det Konservative Folkeparti,1.0454639937737322,0.4947930704774794
+Dan Arnløv,Det Konservative Folkeparti,0.553511931331765,-0.3655113989303264
+Gitte Eriksen,Det Konservative Folkeparti,0.6608094908154739,0.11291939238942968
+Christina Foldager,Det Konservative Folkeparti,0.24978775402443948,-0.15573529583532914
+Cecilie C. Johannsen,Det Konservative Folkeparti,0.14014838254362513,0.09190507741772094
+Rasmus Elkjær Larsen,Det Konservative Folkeparti,0.11643035357977469,-0.00453181125689301
+Frederik Bloch Münster,Det Konservative Folkeparti,0.3919406887649912,0.38927204314802605
+Gunver Birgitte Nielsen,Det Konservative Folkeparti,0.0397783522444369,0.4139640507262895
+Rasmus Sandvej,Det Konservative Folkeparti,0.7596052610105124,1.1231231569107887
+Jens Langer Schou,Det Konservative Folkeparti,1.0077806113879544,0.6910167567773821
+Christian Tarbensen,Det Konservative Folkeparti,0.7049436840425736,0.7188391906630388
+Kristian Thomsen,Det Konservative Folkeparti,1.032926722482533,1.232257949077321
+Jannie Boysen Westergaard,Det Konservative Folkeparti,0.0282885930779199,0.13126283893067178
+Karina Lorentzen Dehnhardt,SF - Socialistisk Folkeparti,-0.7159533318755398,1.767971768834707
+Timm Bøttger,SF - Socialistisk Folkeparti,-0.9141451813738982,1.8230421105538257
+Christian Mutwa Christensen,SF - Socialistisk Folkeparti,-1.1536445346049629,1.7436097691948094
+Magnus Flensborg,SF - Socialistisk Folkeparti,-1.4731283033610798,1.7627063040942996
+Milo Gaarde,SF - Socialistisk Folkeparti,-1.1016851428697836,1.2972999199198663
+Ina Juul Jensen,SF - Socialistisk Folkeparti,-0.5403431100081427,0.1751968480698456
+Jørgen Kvist,SF - Socialistisk Folkeparti,-0.983597785323395,1.0784594208895446
+Sofus Teislev,SF - Socialistisk Folkeparti,-0.919335777404901,1.3278157673742743
+Jørn Dohrmann,Borgernes Parti - Lars Boje Mathiesen,1.3463991631078571,1.444425950331083
+Karsten Byrgesen,Borgernes Parti - Lars Boje Mathiesen,0.6751685352283995,1.4920132804471662
+Jan Køpke Christensen,Borgernes Parti - Lars Boje Mathiesen,1.0404217169675198,1.692859551406911
+Nadja Natalie Isaksen,Borgernes Parti - Lars Boje Mathiesen,1.243949572123265,1.9521412293888363
+Steffen Larsen,Liberal Alliance,1.335486067466353,0.19797062424154654
+Kim Alexander Jensen,Liberal Alliance,1.1752586728634222,-0.04978097069113179
+Helena Artmann Andresen,Liberal Alliance,1.0114779086361165,0.5503171992215556
+Cecilie Liv Hansen,Liberal Alliance,0.66620295451925,0.13693580579542897
+Christian Jørgensen,Liberal Alliance,0.5879319761105525,0.030403462165172812
+Carl Andersen,Liberal Alliance,0.9228023068064738,-0.051489404829179915
+Helene Lykke,Liberal Alliance,0.8955611478907551,0.005379352836106481
+John Rasmussen,Liberal Alliance,0.8527586600996466,0.0887092651372504
+Christian Fini Mosegaard,Liberal Alliance,0.816501218632536,0.5066904468304445
+Troels Simonsen,Liberal Alliance,1.5172711964094179,0.8077711868649126
+Frederik Klakk,Liberal Alliance,1.2945002828781034,0.8056374003441524
+Henrik Frandsen,Moderaterne,-0.06734771079977862,-0.8185783720155705
+Frida Bruun,Moderaterne,-0.11625304271412812,-0.05404315494667413
+Gitte Bjerremand Andersen,Moderaterne,-0.04061626204203623,-1.363639431493444
+Morten Hell,Moderaterne,-0.13577180351169774,-0.923237293497268
+Lone Hansen,Moderaterne,-0.06129994630311874,-1.41652697036955
+Peter Kofod,Dansk Folkeparti,0.8913993329573514,2.2733237087361853
+Rune Bønnelykke,Dansk Folkeparti,1.1364671946226257,3.1222292971087016
+Sune Nørgaard Jakobsen,Dansk Folkeparti,1.043956997414917,3.58567291987421
+Per Knudsen,Dansk Folkeparti,0.7508604246780626,2.3854331383319165
+Kim Andkjær Doberck,Dansk Folkeparti,0.9602169643228579,2.9862306427637546
+Allan Svendsen,Dansk Folkeparti,1.1052260909210403,3.295072002728262
+Mads-Magnus Damm,Dansk Folkeparti,0.7529500862091921,2.0860632139369866
+Tobias Brus Mikkelsen,Dansk Folkeparti,1.0382220058819915,3.1024211973337845
+Rune Højer,Dansk Folkeparti,1.3316332985991512,3.5770780655130068
+Jim Zakaria,Dansk Folkeparti,0.86995427340052,2.803593347430906
+Josephine Alstrup Kofod,Dansk Folkeparti,0.8690373645861816,2.287060794080779
+Christian Kirk,Dansk Folkeparti,0.9511881755547407,2.060346436292437
+Tobias Jørgensen,"Venstre, Danmarks Liberale Parti",0.5682938193123901,0.04903169883917066
+Thomas Andresen,"Venstre, Danmarks Liberale Parti",0.6072568533586156,0.03792896807247161
+Jesper Bierbaum,"Venstre, Danmarks Liberale Parti",0.5565727615975333,0.3864031154144808
+Niels Henning Bladt,"Venstre, Danmarks Liberale Parti",0.1511402191455245,0.3885985215909338
+Tilde Holch Duedahl,"Venstre, Danmarks Liberale Parti",0.42302566013634635,0.37236283161932754
+Preben Friis-Hauge,"Venstre, Danmarks Liberale Parti",0.5416726737328724,0.250459377870151
+Lasse Hildingberg,"Venstre, Danmarks Liberale Parti",0.6630183471500478,0.19387595569607427
+Stephanie Lose,"Venstre, Danmarks Liberale Parti",0.7007337500664126,0.09878490604604703
+Phillip Kjær Luscombe,"Venstre, Danmarks Liberale Parti",0.7849016123914637,0.16503965326905878
+Anni Matthiesen,"Venstre, Danmarks Liberale Parti",0.49493248310486965,-0.08338729602372141
+Christoffer Aagaard Melson,"Venstre, Danmarks Liberale Parti",0.40589619283750844,-0.4257248821174534
+Troels Overgaard,"Venstre, Danmarks Liberale Parti",0.27698106295368113,0.8367198101386933
+Klaus Sandfeld,"Venstre, Danmarks Liberale Parti",0.5564340213022368,-0.06703872020895357
+Karina Adsbøl,Danmarksdemokraterne ‒ Inger Støjberg,0.7054952234463622,2.137480663029617
+Thomas Majgaard Byrsing,Danmarksdemokraterne ‒ Inger Støjberg,1.1841277931934904,2.009340149033026
+Patrick Bryhl,Danmarksdemokraterne ‒ Inger Støjberg,1.1659360030913872,2.045656954255489
+Jakob Venø Heiwald,Danmarksdemokraterne ‒ Inger Støjberg,1.0532020243193825,1.8603936804347552
+Ulrik Knudsen,Danmarksdemokraterne ‒ Inger Støjberg,1.170081416508542,1.9228571109665045
+Kenneth Fredslund Petersen,Danmarksdemokraterne ‒ Inger Støjberg,1.141033916046286,1.953187545180753
+Benny Dall,Enhedslisten – De Rød-Grønne,-1.8485558131985436,1.1094054416287842
+Rasmus Vestergaard Madsen,Enhedslisten – De Rød-Grønne,-2.0647915492976896,2.52050896376561
+Selma Bolø,Enhedslisten – De Rød-Grønne,-1.0192307547309498,1.4675543604570858
+Mathias D. Christiansen,Enhedslisten – De Rød-Grønne,-3.17048665151216,1.3571758421484594
+Johanna-Maria Precht,Enhedslisten – De Rød-Grønne,-1.270481004387431,1.8551709317492262
+Lasse Harder Schousboe,Enhedslisten – De Rød-Grønne,-2.241092673605738,1.9213452829896587
+Lilje Holm,Enhedslisten – De Rød-Grønne,-1.5904206517257269,1.58613866407163
+Helene Hellesøe Appel,Enhedslisten – De Rød-Grønne,-2.237350074496589,1.2182167004424083
+Holly Marie Turner,Enhedslisten – De Rød-Grønne,-2.051700660347027,1.6935426923270265
+Lars Mogensen,Enhedslisten – De Rød-Grønne,-2.3573714415098386,2.519853272815306
+Coco Mette Cecilie Kjærgaard,Alternativet,-1.2803492141700619,0.44986345871943567
+Mikael Winther,Alternativet,-2.172156048292141,1.7748242883167629
+Astrid Fogh,Alternativet,-1.1373935439949034,1.3517336976481946
+Bo Nielsen,Alternativet,-1.591654997576289,2.360348655173489
+Edvard Korsbæk,Alternativet,-1.5930496093987603,0.7377792231051307
+Mikael Hertig,Alternativet,-1.8579459002010041,1.45623592986676
+Hans Biering Fonsbøl,Alternativet,-0.959604341630655,1.083469332935245
+Bodil Nielsen,Alternativet,-2.008760613139602,1.0672912357862705
+Carsten Sohl,Alternativet,-1.002490237108176,0.8103290038125786
+Ane Line Søndergaard,Alternativet,-1.5884936646128622,0.12447076115408484
+Rasmus Horn Langhoff,Socialdemokratiet,-0.9577329954878459,1.4955004361001962
+Valdemar Alban,Socialdemokratiet,-0.1852377813796648,0.7344524821371079
+Trine Birk Andersen,Socialdemokratiet,-0.4747087650171162,0.9952646115686721
+Kaare Dybvad Bek,Socialdemokratiet,-0.07517097813721967,1.4056808426925995
+Kanishka Dastageer,Socialdemokratiet,-0.0824950970712926,1.1314893042830834
+Magnus Heunicke,Socialdemokratiet,-0.1820128512720204,0.6092132646515495
+Julie Kølskov,Socialdemokratiet,-0.32018923131190036,1.2677296083179133
+Tanja Larsson,Socialdemokratiet,-0.24922214561560316,0.7775510012026919
+Carl Emil Lind,Socialdemokratiet,-0.22988373921690616,1.265548761871785
+Kasper Roug,Socialdemokratiet,-0.40286345537281965,0.8043204423946808
+Filiz Sarah Thunø,Socialdemokratiet,-1.4447009730321927,1.2426756178755938
+Frederik Vad,Socialdemokratiet,-0.021943208236062158,0.7837567133358593
+Mette Hvid Brockmann,Radikale Venstre,-1.4100717049948683,-0.14218178920855606
+Helena Tjørnelund Christensen,Radikale Venstre,-0.810932471789522,-0.09855671916890418
+Zenia Stampe,Radikale Venstre,-0.8737190423416713,-0.6505082520638739
+Jeppe Fransson,Radikale Venstre,-0.7547061956346297,-0.46155934414244626
+Edris Qasimi,Radikale Venstre,-0.6120914595449936,-0.6075577402735021
+Sofie Holm,Radikale Venstre,-0.9796718386110788,-0.5741357382264787
+Line Krogh Lay,Radikale Venstre,-0.8110568844795659,-0.37173058845749535
+Jeppe Trolle,Radikale Venstre,-1.153353553460131,-0.6611663822343411
+Kristian Stokholm,Radikale Venstre,-0.24426764449112054,-0.69791868411042
+Troels Brandt,Radikale Venstre,-0.4565236925256862,-0.2729612563129732
+Jane Christensen,Det Konservative Folkeparti,0.6521926257457797,1.029539614186873
+Ida Dyhr,Det Konservative Folkeparti,0.5053186003232627,0.012659856693219744
+Barbara Engelstoft,Det Konservative Folkeparti,0.010829410899327685,-0.32693084296113867
+Silas Ipsen,Det Konservative Folkeparti,0.7131216117096815,0.9065291345870351
+Henrik Jacobsen,Det Konservative Folkeparti,0.5185593828270251,0.02471272469800196
+Ditte Keidser,Det Konservative Folkeparti,0.007944262855471059,0.6306323403913346
+Marcus Knuth,Det Konservative Folkeparti,0.6499904848978987,0.7602774956349483
+Rune Kristensen,Det Konservative Folkeparti,0.36646719410031237,0.4396656540709103
+Vilhelm Møller,Det Konservative Folkeparti,0.5624994067051008,0.6651230348166448
+Victoria Helene Olsen,Det Konservative Folkeparti,0.6539459620610353,0.5567349369904135
+Mads Ramstedt,Det Konservative Folkeparti,0.8592069960111794,1.0795008463463391
+Jacob Stryhn,Det Konservative Folkeparti,0.46163269872521934,0.3114042148676514
+Pia Olsen Dyhr,SF - Socialistisk Folkeparti,-0.8089195481877072,1.303305429543708
+Astrid Carøe,SF - Socialistisk Folkeparti,-1.246262322132383,1.7913649800966236
+Anne Valentina Berthelsen,SF - Socialistisk Folkeparti,-0.8293697524343915,1.767355496537137
+Mads Olsen,SF - Socialistisk Folkeparti,-0.7394996096142168,1.5643108119113462
+Kristine Amalie Rostgård,SF - Socialistisk Folkeparti,-0.45949215994079173,1.1641031829593025
+Claus Jørgensen,SF - Socialistisk Folkeparti,-1.3330042832004252,1.1856871514296694
+Ali Yahya,SF - Socialistisk Folkeparti,-0.5510768001421165,1.1208589239588274
+Michael Graakjær,SF - Socialistisk Folkeparti,-1.2575153415444327,1.6482760275851378
+Jeanne Bergmansen,SF - Socialistisk Folkeparti,-1.1449748475085557,1.359210296708175
+Joan Kragh,SF - Socialistisk Folkeparti,-1.182696722530334,1.6192139637061713
+Jesper Hartøft,SF - Socialistisk Folkeparti,-1.2458967382972754,1.990675325867994
+Martin Graff Jørgensen,SF - Socialistisk Folkeparti,-0.7760177637126486,0.9252293147943547
+Jacob Harris,Borgernes Parti - Lars Boje Mathiesen,1.4705610242336995,2.5486977468424503
+Tim Larsen,Borgernes Parti - Lars Boje Mathiesen,0.4947210343560944,0.9394162055143422
+Sanne Pilgaard,Borgernes Parti - Lars Boje Mathiesen,0.45293116465926425,0.9958759993025617
+John Bo Hansen,Borgernes Parti - Lars Boje Mathiesen,0.42089789696016455,2.1420644646233984
+Pernille Vermund,Liberal Alliance,1.361495837894358,0.274881229922919
+Joachim Riis,Liberal Alliance,0.6387970431602918,0.2610927664825794
+Lars-Christian Brask,Liberal Alliance,1.395562612223428,0.2576867115842532
+Mads Brenøe,Liberal Alliance,0.9448413070694559,0.3598275352078326
+Martin Mickey Pedersen,Liberal Alliance,1.2001702191160089,0.020808120460795755
+Frederik Grünfeld,Liberal Alliance,1.067066251252965,0.1312247636926667
+Michael Rask,Liberal Alliance,0.8792060679811127,0.3073923430588722
+Sandra Skalvig,Liberal Alliance,1.094788873727702,1.0709344404952217
+Nicolai Sandager,Liberal Alliance,0.898230177348668,-0.11712148946683063
+Henrik B. Dynesen,Liberal Alliance,1.2919170351304186,0.08501680197754789
+Julie Memborg,Liberal Alliance,0.8571316229332566,0.10700491620324332
+Steffen Friis,Liberal Alliance,0.9878996351293793,0.6758997821816858
+Carsten Abildtrup Ranum,Liberal Alliance,1.109840465558096,0.28665395505123564
+Frederik Max Krag,Liberal Alliance,1.2057950524624699,0.05050756291375983
+Susan H. Møller,Liberal Alliance,0.809361175092229,0.37254631604670757
+Ulrik Lassen,Liberal Alliance,1.219780974927265,0.9313070948805452
+Brian Prehn,Liberal Alliance,0.8383891405031466,0.25394473016648333
+Nikolaj Brink Olsen,Liberal Alliance,0.9528210773528336,0.765606492809393
+Kasper Schneider,Liberal Alliance,1.6502685995683657,0.08479520668124813
+Lars Løkke Rasmussen,Moderaterne,-0.21467449310387812,-1.391519577780593
+Charlotte Bagge,Moderaterne,0.2611232591608847,-1.6424139540859735
+Brian Perri,Moderaterne,-0.018786841217477222,-1.0890258195297386
+Frida Qvist Kristensen,Moderaterne,-0.14254294475085053,-1.3391436258805993
+Kasper Nygaard,Moderaterne,-0.016284384144225162,-0.7840869281371953
+Mia Linda Møller,Moderaterne,-0.3667429946585078,-0.5934728967091518
+Jan Carlsen,Moderaterne,0.2047611212691659,-0.5480702845053455
+Mogens Haugaard,Moderaterne,-0.1683580132014778,0.07348987048743454
+Morten Messerschmidt,Dansk Folkeparti,0.6277312304574754,2.3117216830007363
+Søren Lund Hansen,Dansk Folkeparti,0.57301843766812,2.5489292426643297
+Julie Jacobsen,Dansk Folkeparti,0.41119501415126936,2.387785352305399
+Anders Bork,Dansk Folkeparti,0.7025403327668401,2.529914422047958
+Jacob Bentsen,Dansk Folkeparti,0.8675398343146219,2.2257350661815276
+Henrik Brodersen,Dansk Folkeparti,0.6790747645324466,2.1968700396835645
+Jan Herskov,Dansk Folkeparti,0.7673936824565734,2.5003683942700246
+Malte Larsen,Dansk Folkeparti,0.3953850632079216,2.103708110922831
+Tanja Glückstadt,Dansk Folkeparti,0.8440838207838045,2.940098673758787
+Simon Hampe,Dansk Folkeparti,0.7777334694806223,2.9800559689862562
+Michael Pihl,Dansk Folkeparti,1.1267700998553065,1.8831251487165765
+Jacob Jensen,"Venstre, Danmarks Liberale Parti",0.7450444314101284,-0.12914075312235107
+Christian Friis Bach,"Venstre, Danmarks Liberale Parti",-0.006143651298560045,-0.6070977854613395
+Claus Bakke,"Venstre, Danmarks Liberale Parti",0.5757077618256431,-0.09053895292401869
+Morten Dahlin,"Venstre, Danmarks Liberale Parti",0.6330315640990261,0.21645986057428762
+Marcus Danielsson,"Venstre, Danmarks Liberale Parti",0.366737657633125,-0.09367149219728063
+Louise Elholm,"Venstre, Danmarks Liberale Parti",0.7080077580185267,0.16058025371204718
+Rasmus Hylleberg,"Venstre, Danmarks Liberale Parti",0.2511867879906779,0.22424315275495318
+Thorbern Alexander Klingert,"Venstre, Danmarks Liberale Parti",0.4328018845868385,0.2504424009723738
+Iben Krog,"Venstre, Danmarks Liberale Parti",0.2820803825098241,0.1189381125418072
+Tina Mandrup,"Venstre, Danmarks Liberale Parti",0.7040594914569174,0.3030879530047319
+Josefine Paaske,"Venstre, Danmarks Liberale Parti",0.38135917464927616,0.584921271159845
+Peter Skaarup,Danmarksdemokraterne ‒ Inger Støjberg,1.1714000376912552,1.9448975135035125
+Michael Rosenmark,Danmarksdemokraterne ‒ Inger Støjberg,0.850509484563642,2.420946551659818
+Martin Rahn Johansen,Danmarksdemokraterne ‒ Inger Støjberg,0.679769258074009,1.3831276241828485
+Susie Jessen,Danmarksdemokraterne ‒ Inger Støjberg,1.23143549363573,1.6103911309370387
+Dina Person,Danmarksdemokraterne ‒ Inger Støjberg,0.9414303753648543,1.962959346729693
+Brian Mørch,Danmarksdemokraterne ‒ Inger Støjberg,1.0054490887110208,2.5604246675571516
+John Brill Engkebølle,Danmarksdemokraterne ‒ Inger Støjberg,1.2362016299015648,1.96580529181163
+Christian Wibholm,Danmarksdemokraterne ‒ Inger Støjberg,0.7039885831067517,0.46085467672842056
+Bob Richard Nielsen,Danmarksdemokraterne ‒ Inger Støjberg,1.3846833442143167,2.256889289601712
+Benny Damgaard,Danmarksdemokraterne ‒ Inger Støjberg,0.1492922379718982,0.18806614679129618
+Eva Flyvholm,Enhedslisten – De Rød-Grønne,-1.052657373948759,1.509888948413864
+Louis Jacobsen,Enhedslisten – De Rød-Grønne,-1.6854391218031932,2.601993277493303
+Ludmila Plenge,Enhedslisten – De Rød-Grønne,-1.8645221243453363,1.521715015747728
+Jonas Paludan,Enhedslisten – De Rød-Grønne,-1.2875143396013924,1.5230633361455823
+Bruno Jerup,Enhedslisten – De Rød-Grønne,-1.775871366414925,1.6640188780536707
+Birgit Gedionsen,Enhedslisten – De Rød-Grønne,-1.2240780342693167,0.12139344210878855
+Kevin Alex Rasmussen,Enhedslisten – De Rød-Grønne,-2.1281192662229875,1.8903653879523574
+Peter Roswall,Enhedslisten – De Rød-Grønne,-2.05505001467191,1.922728989181068
+Helena Hedegaard Udsen,Enhedslisten – De Rød-Grønne,-2.1138670447808616,1.3900685552569263
+Sascha Faxe,Alternativet,-1.5327410240302126,0.8277234629316097
+Jacob Antvorskov,Alternativet,-1.0959230864364136,0.8970735024477084
+Elise Sydendal,Alternativet,-1.3866384133346426,1.0683020638597165
+Mette Friis,Alternativet,-1.2189072169291266,1.7966452600202396
+Valentina Crast,Alternativet,-0.7799052901082308,-0.19253841517848105
+Allan Hansen Lindemark,Alternativet,-1.809497017875114,1.9398595731528536
+Lars König,Alternativet,-0.8849580731610188,0.5240901473198591
+Isabella Apelroth,Alternativet,-1.1186089139535553,0.5145024790828968
+Yurdal Cicek,Alternativet,-0.5997571310625408,0.833873185768692
+Line Gessø,Alternativet,-0.7992402357887665,1.164032218303571
+Liselotte Katarina Rotfeld,Alternativet,-1.0987492049704486,0.6315696267347432
+Anders Andreasen,Socialdemokratiet,-0.46807592654961894,0.5224530610022375
+Vinnie Borbjerg,Socialdemokratiet,-0.49263406759400935,1.069201437493671
+Katrine Evelyn Jensen,Socialdemokratiet,-0.06696441745655515,1.1491016965534464
+Mogens Jensen,Socialdemokratiet,-0.21582725012691822,0.49965965705774174
+Kasper B.G. Lauritsen,Socialdemokratiet,-0.4356984673351896,0.8747300283256104
+Eva Borchorst Mejnertz,Socialdemokratiet,-0.4284138058712566,0.8131247810258405
+Anne Paulin,Socialdemokratiet,-0.21110370047222188,1.0231089272448954
+Peter Vestergaard,Radikale Venstre,-0.8737190423416713,-0.6505082520638739
+Johan Brødsgaard,Radikale Venstre,-0.384216731388299,0.024861240909461204
+Philip Vivet,Radikale Venstre,-0.49515077946912256,-0.3756079031514385
+Kim Pagels,Radikale Venstre,-0.25543812219948875,-0.2849223484443033
+Casper Hindkjær,Radikale Venstre,-0.7231295548438956,0.5813957374833356
+Lone Kjær Hein,Radikale Venstre,-1.169104912947443,0.22501794580119305
+Hanne Frølund,Radikale Venstre,-0.483584604765202,0.03352922084879531
+Simon Højer,Det Konservative Folkeparti,0.06902838303645992,0.1925638810815832
+Dina Andersen-Raabjerg,Det Konservative Folkeparti,0.028352317571271938,0.2900943035024568
+Lise Bertelsen,Det Konservative Folkeparti,0.7182130340038281,0.07333220993954204
+Michael Grove,Det Konservative Folkeparti,0.3382965410200178,0.5386479363699628
+Marianne Karlsmose,Det Konservative Folkeparti,0.027429636623565394,0.056751526184780555
+Siff Tang Lassen,Det Konservative Folkeparti,0.5398969266461501,1.0900685951798463
+Gorm Hoff Lauridsen,Det Konservative Folkeparti,0.4234743886166735,-0.2064650792649609
+Jørgen Christian Pedersen,Det Konservative Folkeparti,0.7424260545736491,1.141309778531297
+Lennart Qvist,Det Konservative Folkeparti,0.44954522808270836,0.8321680129320314
+Lau Sørensen,Det Konservative Folkeparti,-0.18978593531782853,-0.3633450548947197
+Nicklas Verne,Det Konservative Folkeparti,0.5268518365974086,0.4445870135767903
+Signe Munk,SF - Socialistisk Folkeparti,-0.9260224458247522,1.5023121902292405
+Nils Brøgger,SF - Socialistisk Folkeparti,-0.9441726223813334,0.8554197607312192
+Emma Thorup Jacobsen,SF - Socialistisk Folkeparti,-0.8403993066794466,1.2114450766475935
+Bente Refslund,SF - Socialistisk Folkeparti,-1.2290055350509812,1.466145934455441
+Anders Bøge,SF - Socialistisk Folkeparti,-0.6093014239649865,0.9558444508457421
+Niels Kristian Larsen,SF - Socialistisk Folkeparti,-1.0071141326864999,1.3918385845027432
+Helge K. Frandsen,Borgernes Parti - Lars Boje Mathiesen,1.129825735646493,2.6032865240204646
+Jes Halfdan,Borgernes Parti - Lars Boje Mathiesen,0.7853303273207137,1.5167703154981618
+Thorbjørn Jacobsen,Liberal Alliance,1.2033168208686569,-0.0015615325208645557
+Carsten Bach,Liberal Alliance,1.1380051159304971,0.34745005489582076
+Helle Jensen,Liberal Alliance,0.7623692912321641,0.08200596037392326
+Svend Stein Olsen,Liberal Alliance,0.7540189024454402,-0.21261097506723883
+Steffen Troldtoft,Liberal Alliance,1.128882241085658,0.12759574225668235
+Michael Valbjørn,Liberal Alliance,0.7899242832804068,0.39256700524200433
+Ragnar Dixen,Liberal Alliance,0.6994857684044302,-0.32734491811893873
+Keld Lorenzen,Liberal Alliance,0.9313616161897986,-0.253286419961653
+Kevin Possekel,Liberal Alliance,0.7870583184911226,-0.47150832934290465
+Morten E.G. Brautsch,Moderaterne,0.027237292938504486,-1.2235516976035012
+Martin Sanderhoff,Moderaterne,-0.05657495507069627,-1.5870899997452537
+Michael Nielsen,Moderaterne,-0.29877538764938205,-1.2824802007250244
+Jeppe von Berg,Moderaterne,-0.10525635991488523,-0.779234074671044
+Søren Boel Olesen,Dansk Folkeparti,0.5027266909876729,2.5497565003332645
+Mikael Würtz,Dansk Folkeparti,0.6990682173754773,2.657826532399488
+Lone Langballe,Dansk Folkeparti,1.0329686574784502,2.7692473001961906
+Michelle Sundahl,Dansk Folkeparti,0.6691959044738734,2.5281539298063773
+Erik Flyvholm,"Venstre, Danmarks Liberale Parti",0.46929416460132617,0.06478265058194374
+Gert Bækgaard,"Venstre, Danmarks Liberale Parti",0.23971080606507955,-0.1173706501656289
+Thomas Danielsen,"Venstre, Danmarks Liberale Parti",0.5276282644687077,-0.37731225841732247
+Søren Gade,"Venstre, Danmarks Liberale Parti",0.7659487283946355,0.5149304898359995
+Ralf Høgedal,"Venstre, Danmarks Liberale Parti",0.27085912768497855,-0.6806891563382632
+Morten Høgh,"Venstre, Danmarks Liberale Parti",0.7793289619181188,0.14023083062137
+Trine Jepsen,"Venstre, Danmarks Liberale Parti",0.18735130595064908,0.040085394004913226
+Jarl Matthiesen,"Venstre, Danmarks Liberale Parti",0.038259923184386174,-0.2680648591603189
+Frederik Houmann Thuesen,"Venstre, Danmarks Liberale Parti",0.3090567149877076,0.3194141260908539
+Marcus Juul Grønbæk,Danmarksdemokraterne ‒ Inger Støjberg,0.9036810143359181,1.3151846317200613
+Mads Fuglede,Danmarksdemokraterne ‒ Inger Støjberg,0.63562461948868,1.2796887672940693
+Betina Kastbjerg,Danmarksdemokraterne ‒ Inger Støjberg,1.1716217764719428,1.9058408880975892
+Morten Vehl Revsbeck,Danmarksdemokraterne ‒ Inger Støjberg,1.3325251836467333,1.709211718082572
+Dennis Flydtkjær,Danmarksdemokraterne ‒ Inger Støjberg,1.014134649751752,1.3930136433628668
+Vivi Altenburg,Danmarksdemokraterne ‒ Inger Støjberg,0.6993453398350639,1.2975082974877417
+Damian Hartvig Mathiesen,Enhedslisten – De Rød-Grønne,-2.119351628797099,1.9300938573418938
+Lisbeth Torfing,Enhedslisten – De Rød-Grønne,-1.584491520631739,1.6629854943135542
+Stine Ry Andersen,Enhedslisten – De Rød-Grønne,-1.524610826004945,1.5445091911739468
+Christian Juhl,Enhedslisten – De Rød-Grønne,-3.2739078739392804,1.4968930013357902
+Aksel Rosager Johansen,Enhedslisten – De Rød-Grønne,-1.4542826126227626,1.20643427739974
+Henning Bo Madsen,Enhedslisten – De Rød-Grønne,-1.753042713599658,1.6663290028334072
+Henning Lindberg,Enhedslisten – De Rød-Grønne,-1.0239448835734037,0.563779112655389
+Steffen Tolstrup,Alternativet,-1.3397730230619707,0.47558739994708393
+Lina Sikora Christiansen,Alternativet,-0.8311951205802538,0.861949476212837
+Nicklas Stampe Raabjerg,Alternativet,-2.0172682974241236,1.1303808357383485
+Signe Sofie Larsen,Alternativet,-1.7857161590240618,0.53480124088593
+Peter Bilgrav,Alternativet,-2.2957900203812445,1.5624805936479778
+Knud Gaarn-Larsen,Uden for parti,-0.691378338819728,0.5987492764400772
+Lea Wermelin,Socialdemokratiet,-0.17958813233510706,0.502105078229575
+Kasper Flygare,Socialdemokratiet,-0.40434433686133464,0.1537554693544386
+Christian Faurholdt Jeppesen,Socialdemokratiet,-0.8991790133758341,0.3160878999926724
+Laila Stougaard Kofoed Espersen,Radikale Venstre,-0.603732866455343,-0.3511078531602306
+Kristoffer Kromand,Det Konservative Folkeparti,0.22501706546558226,0.4088901634826074
+Peter Svarre Fridolf,Det Konservative Folkeparti,-0.16568183817107118,-0.2810240982633797
+Sofie Christiansen,SF - Socialistisk Folkeparti,-1.350789115924052,1.2132296148632613
+Sebastian Bloch Jensen,SF - Socialistisk Folkeparti,-0.4686015822683187,0.36930362854536725
+Eik Dahl Bidstrup,Liberal Alliance,1.5309165299032788,0.2793262730370687
+Kirstine van Sabben,Moderaterne,0.056220558751955314,0.13732598912584434
+Bo Vibe Ancher Jensen,Dansk Folkeparti,0.3003521104708966,2.0832086113415524
+Peter Juel-Jensen,"Venstre, Danmarks Liberale Parti",0.6398896567950708,0.025718685200217715
+Niklas Stenbye,"Venstre, Danmarks Liberale Parti",0.37535098800053684,0.34301915715399556
+Birthe Tindbæk Bredo,"Venstre, Danmarks Liberale Parti",0.2917799503660227,0.15130196985149574
+Michael Hendriksen,Danmarksdemokraterne ‒ Inger Støjberg,0.9868153910141667,2.1709978169348134
+Helle Munk Ravnborg,Enhedslisten – De Rød-Grønne,-2.1592768871002668,2.31680721736056
+Asta Kofod,Enhedslisten – De Rød-Grønne,-1.6671056039799512,1.4320674197969747
+Kim Hjerrild,Alternativet,-1.2570946355349608,1.3595466877408586
+Camilla Fabricius,Socialdemokratiet,-0.3431862302080155,0.9857900498841164
+Dorthe Hindborg,Socialdemokratiet,-0.7267523674031114,0.3937076368388346
+Leif Lahn Jensen,Socialdemokratiet,-0.1836052969764311,0.6059304375345164
+Anders Kühnau,Socialdemokratiet,-0.4275564517551936,0.46080968691778285
+Malte Larsen,Socialdemokratiet,-0.10049007653551881,0.576217567189665
+Thomas Monberg,Socialdemokratiet,-0.3434776557516937,1.0568617249769925
+Erik Særkjær,Socialdemokratiet,-0.945503700403057,1.003795685534004
+Mathias Thybo,Socialdemokratiet,-0.2951384812065549,0.9363122788122605
+Nicolai Wammen,Socialdemokratiet,-0.20764844808657762,0.5020911184927352
+Rikke Christensen,Radikale Venstre,-0.6916168872172824,-0.25352017764923696
+Katrine Robsøe,Radikale Venstre,-0.5712615011306565,-0.7905540486198832
+Anne Sophie Callesen,Radikale Venstre,-0.9298203398181994,-0.4877204640028703
+Mathias Sikora,Radikale Venstre,-0.8897386912529802,-0.3052648067332424
+Line Rasmussen,Radikale Venstre,-0.5227147265845791,-0.1579840134096052
+Hanne Roed,Radikale Venstre,-0.6894404853665397,-0.3651937294667406
+Bjarke Jensen,Radikale Venstre,-0.8840674657741683,-0.4863058628945292
+Rune Christiansen,Radikale Venstre,-0.4604794345602652,0.2936166557393749
+Rabih Azad-Ahmad,Radikale Venstre,-0.8726567002025669,0.30724150452147425
+Jacob Skjærris,Det Konservative Folkeparti,0.45244890476894445,0.11194841923940671
+Charlotte Green,Det Konservative Folkeparti,0.514011153996604,0.014232037834584224
+Michael Faust Horsbøl,Det Konservative Folkeparti,1.0100878619414435,0.9666021232039352
+Bjørn Jensen,Det Konservative Folkeparti,0.4040262314566298,-0.03350692224970643
+Mona Juul,Det Konservative Folkeparti,0.6194843381849311,-0.4320945448852516
+Anders Krojgaard Lund,Det Konservative Folkeparti,0.7366300164431779,0.22524523591866877
+Bia Ndamukunda,Det Konservative Folkeparti,0.8368227972276961,0.6735848669875767
+Viktor Thyregod Sivertsen,Det Konservative Folkeparti,0.55965373611922,0.5692052845090104
+Peter Sporleder,Det Konservative Folkeparti,0.589327751460598,-0.42128128943016213
+Caroline Svejsø,Det Konservative Folkeparti,0.49645945080534837,0.431857003832206
+Morten Sørensen,Det Konservative Folkeparti,0.8477717255737199,0.16852649218479235
+Kirsten Normann Andersen,SF - Socialistisk Folkeparti,-0.6220579634031174,1.3947148265185616
+Sofie Lippert,SF - Socialistisk Folkeparti,-1.7275773021393819,1.7392028936563397
+Charlotte Broman Mølbæk,SF - Socialistisk Folkeparti,-0.86927316108168,1.1720766691414823
+Anna Brændemose,SF - Socialistisk Folkeparti,-1.3442337311313317,2.032374404959402
+Charlotte Vindeløv,SF - Socialistisk Folkeparti,-0.8783528641551289,1.2411688036449926
+Søren Lahn Sloth,SF - Socialistisk Folkeparti,-1.34024181384611,1.8055221678536895
+Morten Siig Henriksen,SF - Socialistisk Folkeparti,-1.3548296448032104,1.4362858299458936
+Paw Hedegaard Amdisen,SF - Socialistisk Folkeparti,-0.698530811380025,0.622282768303513
+Rasmus T. Mortensen,SF - Socialistisk Folkeparti,-0.9181905159421052,1.471181252079055
+Carina Sarkkinen,SF - Socialistisk Folkeparti,-0.27599893878001636,1.314421177519216
+Lars Boje Mathiesen,Borgernes Parti - Lars Boje Mathiesen,0.9906129599417566,1.7171018594893093
+Louise Brown,Liberal Alliance,0.8360649522110916,-0.45527361118742166
+Alex Vanopslagh,Liberal Alliance,1.4823002408571404,-0.6679478027721271
+Jens Meilvang,Liberal Alliance,0.8401808650745088,0.07558828899723881
+Chris Hvidberg,Liberal Alliance,0.9720549149619521,0.34157257680357667
+Niels Povlsgaard,Liberal Alliance,0.887598604425308,-0.19656546556485444
+Søren Jensen,Liberal Alliance,1.1435275291611176,0.8551281726846889
+Lars Abildskov,Liberal Alliance,0.641161217079099,-0.03921953255731092
+Michael Klausen,Liberal Alliance,0.3304566424808415,0.03579166513393603
+Kim Møller-Nielsen,Liberal Alliance,1.2050866306299988,-0.2789454342462996
+Louise Svenstrup,Liberal Alliance,0.9082025694964545,-0.019915403761476824
+Christina Egelund,Moderaterne,-0.06898637825070049,-1.2562631582173225
+Caroline Stage,Moderaterne,0.07328648487985617,-1.4337392073554096
+Sten Larsen,Moderaterne,0.16150521226969328,-0.6641399191091073
+Søren Vanting,Moderaterne,-0.11577868561540855,-0.3847153671879706
+Susan Kronborg,Moderaterne,-0.15159197104916214,-0.09501217357314029
+Sara Pernille Jespersen,Moderaterne,-0.23177746675576869,-1.1285269224289025
+Peter Have,Moderaterne,-0.363693961891331,-0.8366913209539404
+Nick Zimmermann,Dansk Folkeparti,0.6842800932555382,3.07122249244899
+Michael Nedersøe,Dansk Folkeparti,0.737107971600457,2.3865759466307317
+Jens Kannegaard Lundager,Dansk Folkeparti,0.9209090597868442,2.5946079275995313
+Nana Harring,Dansk Folkeparti,0.7962106212911422,2.0426450878024274
+Troels Lund Poulsen,"Venstre, Danmarks Liberale Parti",0.7065589514792956,0.10285669591038606
+Henrik Rejnholt Andersen,"Venstre, Danmarks Liberale Parti",0.7757797166276381,0.0988582862826802
+Gert Bjerregaard,"Venstre, Danmarks Liberale Parti",0.8545286957244121,0.26467424657678407
+Mathilde Hjort Bressum,"Venstre, Danmarks Liberale Parti",0.20949857402156383,-1.8080233400445687
+Emil M. D. Christensen,"Venstre, Danmarks Liberale Parti",0.34374149592163056,-0.3856800978457152
+Louise Høeg,"Venstre, Danmarks Liberale Parti",0.6628567981957142,0.08657715443399973
+Louise Louring,"Venstre, Danmarks Liberale Parti",0.5251404224388319,0.17638158689825875
+Erik Veje Rasmussen,"Venstre, Danmarks Liberale Parti",0.26596988810297745,-0.24743291858106942
+Hans Skou,"Venstre, Danmarks Liberale Parti",0.5845207249723843,-0.0495718921928085
+Sebastian Støckler,"Venstre, Danmarks Liberale Parti",0.459727212772905,0.12213880728211277
+Karina Aamann,"Venstre, Danmarks Liberale Parti",0.3475717784277264,-0.2587572296023031
+Rune Mikkelsen,Danmarksdemokraterne ‒ Inger Støjberg,1.0422555282083035,1.8483317966200865
+Hans Kristian Skibby,Danmarksdemokraterne ‒ Inger Støjberg,1.1073408227035533,1.5817778763311774
+Magnus Bigum,Danmarksdemokraterne ‒ Inger Støjberg,1.3471393391233495,1.8467366264347906
+Lone Glarbo,Danmarksdemokraterne ‒ Inger Støjberg,0.760423354899317,1.8209363227890134
+Erik Poulsen,Danmarksdemokraterne ‒ Inger Støjberg,0.7205571040007601,0.9379169201342854
+Christina Hedegaard Hansen,Enhedslisten – De Rød-Grønne,-1.006331098835723,1.6174389927542963
+Trine Mach,Enhedslisten – De Rød-Grønne,-2.111748257105813,1.8240388508456606
+Maria Temponeras,Enhedslisten – De Rød-Grønne,-1.8874872852356663,2.176956317014733
+Edith Vels,Enhedslisten – De Rød-Grønne,-2.3175046561510957,1.47401221674773
+Lisbeth Ivanhoe,Enhedslisten – De Rød-Grønne,-1.4916595585337415,1.9051199882735377
+Martin Laursen,Enhedslisten – De Rød-Grønne,-1.319476752014245,1.450021038602441
+Maria Sørensen,Enhedslisten – De Rød-Grønne,-2.536496494118716,1.8890958630849652
+Jakob Jensen,Enhedslisten – De Rød-Grønne,-2.992045211245421,1.9290087828216997
+Kristjar Skajaa,Enhedslisten – De Rød-Grønne,-2.668742171565145,1.519975521690522
+Dennis Munk,Enhedslisten – De Rød-Grønne,-2.5876854840868906,1.9820312518811056
+Torsten Gejl,Alternativet,-2.6024383176537875,1.5393829278425573
+Nikoline Erbs Hillers-Bendtsen,Alternativet,-2.0724706209644506,0.4756825615182858
+Gitte Dreier Jacobsen,Alternativet,-1.26753027634424,0.3074016661241897
+Bjørn Olsen,Alternativet,-0.772110138968819,0.540707705146034
+Tina Kjær,Alternativet,-1.2355976282793488,0.6923656287239786
+Steffen Hedegaard Attermann Brinch,Alternativet,-0.7198331905883685,0.6172596447119073
+Pernille Skærsø,Alternativet,-0.8373548205383508,-0.04778820385012227
+Kim Sørensen,Alternativet,-1.608286021640889,1.8275920808197152
+Anna Calero,Alternativet,-1.1918268152988691,0.670216790703705
+Thomas Quist Mortensen,Alternativet,-1.3180679548499394,1.258096997802182
+Juma Nellemann Kruse,Alternativet,-0.9605120312731175,0.6955574030217849
+Marcus Bech Pedersen,Alternativet,-1.9713004760421269,-0.24954619315814172
+Mads Damgaard Mortensen,Alternativet,-2.477044103862919,2.077868012484309
+Hanne K. Mortensen,Alternativet,-0.5765782060086437,1.2903835508342618
+Thomas Due Nielsen,Alternativet,-1.0284081065802588,1.3927312905039446
+Thor Clasen Jonasen,Alternativet,-1.260060951538777,0.8399820839003067
+Søren Skjold Andersen,Uden for parti,-0.19358620093751194,0.01911111743576352
+Simon Kollerup,Socialdemokratiet,-0.13603499480181325,0.405625918293193
+Kiki Bille Bach,Socialdemokratiet,-0.15481918652474055,0.708773437794383
+Ane Halsboe-Jørgensen,Socialdemokratiet,-0.12735425777316053,0.846083505368386
+Per Husted,Socialdemokratiet,-0.17540692210170045,0.7830642290372211
+Thomas Klimek,Socialdemokratiet,-0.21043438752007518,1.157939204972096
+Peder Key Kristiansen,Socialdemokratiet,-0.45093282327300427,0.08316146407576813
+Flemming Møller Mortensen,Socialdemokratiet,-0.12628600095107553,0.6845681000366044
+Morten Ryom,Socialdemokratiet,-0.4539537437206991,1.186246804887423
+Steen Asgeir Petersen,Radikale Venstre,-0.832961701974023,-0.6594181742720967
+Carsten Bedsted,Radikale Venstre,-0.5031094042281081,-0.48273393781035256
+Steffen Holme Helledie,Radikale Venstre,-0.41293414354716335,-0.6274185625815125
+Jacob Robsøe,Radikale Venstre,-0.34508348171463754,-0.3555454298603653
+Pia Elberg,Radikale Venstre,-0.6968458210455427,-0.48955334115931937
+Marie Wandel,Radikale Venstre,-1.4223383384215325,0.041605478800903366
+Dorthe Kerschus,Radikale Venstre,-0.6560884453628981,-0.3007516120466784
+Michael Portefee P. Lex,Radikale Venstre,-0.6270414344398365,0.3097114922029851
+Susanne Krebs,Radikale Venstre,-0.6937099701963229,-0.28168666668053616
+Torsten Wetche,Radikale Venstre,-0.2563457367066272,0.04696527154543584
+Emma Biørn Tretow-Fish,Radikale Venstre,-0.9703252901829742,-0.10840781226834936
+Gorm Simonsen,Radikale Venstre,-0.5355836583578001,-0.5722290078825998
+Dorthe Pedersen,Det Konservative Folkeparti,0.2307519568975157,0.44638536315935795
+Lene Burchardt,Det Konservative Folkeparti,0.11782763744288978,-0.3943392163242171
+René Flou,Det Konservative Folkeparti,1.1083573464863616,0.5313918185178655
+Laura Holm,Det Konservative Folkeparti,0.25501608580257784,0.17822560144012536
+Søren Homann,Det Konservative Folkeparti,0.5077581360864315,-0.041871039088934886
+Per Larsen,Det Konservative Folkeparti,0.7559350024145408,-0.5192756128478929
+Sofie Therese Svendsen,Det Konservative Folkeparti,0.52017661575421,0.12405521743188382
+Stine Thier-Andersen,Det Konservative Folkeparti,0.11343602948151758,0.6796384600185237
+Gabriel Aaen,Det Konservative Folkeparti,0.36569172954514984,0.8657144235402975
+Morten Bo Bertelsen,SF - Socialistisk Folkeparti,-1.4980109419517278,2.420490756515882
+Theresa Berg Andersen,SF - Socialistisk Folkeparti,-0.4704796327957692,2.2314281137448786
+Melina Andersen,SF - Socialistisk Folkeparti,-0.9217802274713705,2.2463869041892903
+Dorte M. Nielsen,SF - Socialistisk Folkeparti,-0.752770158187606,1.015585904648361
+Benjamin Christensen,SF - Socialistisk Folkeparti,-0.9372419821330835,1.1307389954730047
+Peder Larsen,SF - Socialistisk Folkeparti,-0.8907371908189888,1.524313163947611
+Henning Jørgensen,SF - Socialistisk Folkeparti,-2.7906308401862834,1.5669530757190069
+Christina Lykke,SF - Socialistisk Folkeparti,-0.6982242365652633,1.250972533235102
+Niels Christensen,Borgernes Parti - Lars Boje Mathiesen,1.990884889794059,1.5956166321002978
+John Bjerg,Borgernes Parti - Lars Boje Mathiesen,1.7145603262373283,2.5258071280054275
+Arne Hyldgaard,Borgernes Parti - Lars Boje Mathiesen,0.9212218694190938,2.0006200304567554
+Paulina Laparil,Borgernes Parti - Lars Boje Mathiesen,0.8089839179464314,0.9956187636716388
+Ib Poulsen,Borgernes Parti - Lars Boje Mathiesen,0.8926487030057343,2.478637709482621
+Kenneth Skatka Hammer,Liberal Alliance,1.237331554473332,0.6759133051476169
+Sólbjørg Jakobsen,Liberal Alliance,0.9637996373428973,0.9314396934139347
+HP Beck,Liberal Alliance,1.0155596422830182,0.7264129001687085
+Anders Peter Hansen,Liberal Alliance,0.9000702043707273,0.10797016932083837
+Kim Gaarsdahl,Liberal Alliance,0.9873548734665637,0.015794636984763973
+Bo Ritterbusch,Liberal Alliance,1.0408591100272901,-0.4227080935721169
+Mark Hellerup,Liberal Alliance,1.0432120138474068,-0.20970557404130913
+Kresten Solvang Larsen,Liberal Alliance,1.1623455916943644,0.3225665341042717
+Frederik Blicher Pedersen,Liberal Alliance,0.8484198106659052,0.8051591308936161
+Claus Beck,Liberal Alliance,0.8509518407768449,0.04857261542596364
+Dan Gaardboe Rueskov,Liberal Alliance,1.0566163558665325,0.6554131403709247
+Sara Tvilling,Liberal Alliance,1.9331541588709014,0.6351718613074594
+Rikke Olssen,Liberal Alliance,0.8490282924197597,0.1516938882338308
+Peter Larsen,Liberal Alliance,1.2431422768933065,0.12101745909411338
+Lukas Vestergaard,Liberal Alliance,1.453571434681038,0.27642170532085875
+Mohammad Rona,Moderaterne,0.04686147725536413,-0.7746084936684244
+Line Randa,Moderaterne,-0.282749314090235,-0.5893106657131615
+Nikolaj C. Andersen,Moderaterne,-0.03480788563479933,-1.353583025890611
+Morten Arvidsson,Moderaterne,-0.42325308454909083,-0.7213831871862819
+Ditte Ravn Kaagaard,Moderaterne,-0.23808783976776215,-1.3887850415944731
+Thomas Skovgaard,Moderaterne,-0.11041945803527718,-1.2895583928991268
+Anders Vistisen,Dansk Folkeparti,0.6931042571007635,2.940147580071306
+Danny Rosenkilde,Dansk Folkeparti,0.4004627857108354,1.94655987124986
+Thomas Hjort,Dansk Folkeparti,0.6876766878020297,2.2098358617810385
+Emma Houe Mølgaard,Dansk Folkeparti,0.8666306247430193,2.383440328257413
+Torsten Schack Pedersen,"Venstre, Danmarks Liberale Parti",0.8976953233425611,0.19586354888294913
+Mikkel Bisgaard,"Venstre, Danmarks Liberale Parti",0.38473667810191614,0.2370498967885902
+Marie Bjerre,"Venstre, Danmarks Liberale Parti",0.44197192771207167,0.018581807753328072
+Niels H. Bünemann,"Venstre, Danmarks Liberale Parti",0.3593181452069314,-0.2513686723794111
+Preben Bang Henriksen,"Venstre, Danmarks Liberale Parti",0.6332839932324731,0.11358818448020686
+Anita Vivi Lilholt,"Venstre, Danmarks Liberale Parti",0.1603298889255939,0.37389766703187155
+Phillip Sperling,"Venstre, Danmarks Liberale Parti",-0.2175801814406887,-0.5321934710794421
+Anne Honoré Østergaard,"Venstre, Danmarks Liberale Parti",0.3878363417226844,0.1439969593155845
+Claus Skovmose,Danmarksdemokraterne ‒ Inger Støjberg,0.9053589660192151,0.9560259278519493
+Inger Støjberg,Danmarksdemokraterne ‒ Inger Støjberg,1.1443000433224157,2.1337714554567038
+Kristian Bøgsted,Danmarksdemokraterne ‒ Inger Støjberg,1.0341549766209008,1.9671071900368968
+Liselotte Lynge,Danmarksdemokraterne ‒ Inger Støjberg,0.9985445926512051,1.7251167862295242
+Frederik Storm,Danmarksdemokraterne ‒ Inger Støjberg,0.8803191179710658,1.979639787726365
+Kim Edberg Andersen,Danmarksdemokraterne ‒ Inger Støjberg,1.1714000376912552,1.9448975135035125
+Berit Raldin,Enhedslisten – De Rød-Grønne,-2.0222553051307854,1.9617239158192799
+Peder Hvelplund,Enhedslisten – De Rød-Grønne,-2.333979217164787,1.8850871823844408
+Runa Friis Hansen,Enhedslisten – De Rød-Grønne,-1.8109400539980818,1.9856635645495435
+Lasse Olsen,Enhedslisten – De Rød-Grønne,-2.329369276766147,1.9910512626385646
+Filippa Emilie Vittrup,Enhedslisten – De Rød-Grønne,-2.14936621677728,1.8983889602638855
+Christina Eilers,Enhedslisten – De Rød-Grønne,-2.693080212686844,2.227641916549214
+Hans Jensen,Enhedslisten – De Rød-Grønne,-2.727452064653611,2.071576733943387
+Lasse Mejer Petersen,Enhedslisten – De Rød-Grønne,-2.444703484922926,1.8899328864115925
+Ulrik Appel,Enhedslisten – De Rød-Grønne,-2.4858096830944443,1.8743372429496499
+Anna Bjerre,Alternativet,-1.2768502741168053,1.37684229526558
+Emil Sloth,Alternativet,-0.4681921759577527,0.20584796591701598
+Anette Jensen Smith,Alternativet,-1.1455146569597603,0.6069543422948082
+Anne-Marie Hemmeth,Alternativet,-1.9180875252982603,2.3441024753778104
