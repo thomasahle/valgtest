@@ -158,7 +158,9 @@ def main():
         va = "bottom" if dy > 0 else ("top" if dy < 0 else "center")
         ax.text(mx + dx, my + dy, label,
                 fontsize=11, fontweight="bold", color=color,
-                ha=ha, va=va, linespacing=1.2, zorder=6)
+                ha=ha, va=va, linespacing=1.2, zorder=6,
+                bbox=dict(boxstyle="round,pad=0.15", facecolor="white",
+                          edgecolor="none", alpha=0.75))
 
     # ── Axis labels ───────────────────────────────────────────────────────────
     xlim = ax.get_xlim()
@@ -169,23 +171,23 @@ def main():
     xlim = ax.get_xlim()
     ylim = ax.get_ylim()
 
-    ax.text(np.mean(xlim), ylim[0] - 0.15, "Omfordeling",
+    ax.text(np.mean(xlim), ylim[0] - 0.15, "Solidarisk-progressiv ↔ Borgerlig-stram",
             ha="center", va="top", fontsize=12, color="#555555",
             transform=ax.transData, clip_on=False)
-    ax.text(xlim[0] + 0.05, ylim[0] - 0.15, "← Venstre",
+    ax.text(xlim[0] + 0.05, ylim[0] - 0.15, "← solidarisk-progressiv",
             ha="left", va="top", fontsize=10, color="#888888",
             transform=ax.transData, clip_on=False)
-    ax.text(xlim[1] - 0.05, ylim[0] - 0.15, "Højre →",
+    ax.text(xlim[1] - 0.05, ylim[0] - 0.15, "borgerlig-stram →",
             ha="right", va="top", fontsize=10, color="#888888",
             transform=ax.transData, clip_on=False)
 
-    ax.text(xlim[0] - 0.15, np.mean(ylim), "Reformisme / Populisme",
+    ax.text(xlim[0] - 0.15, np.mean(ylim), "Midterreformistisk ↔ Hverdagspopulistisk",
             ha="right", va="center", fontsize=12, color="#555555",
             rotation=90, transform=ax.transData, clip_on=False)
-    ax.text(xlim[0] - 0.15, ylim[1] - 0.05, "Populistisk ↑",
+    ax.text(xlim[0] - 0.15, ylim[1] - 0.05, "hverdagspopulistisk ↑",
             ha="right", va="top", fontsize=10, color="#888888",
             rotation=90, transform=ax.transData, clip_on=False)
-    ax.text(xlim[0] - 0.15, ylim[0] + 0.05, "↓ Reformistisk",
+    ax.text(xlim[0] - 0.15, ylim[0] + 0.05, "↓ midterreformistisk",
             ha="right", va="bottom", fontsize=10, color="#888888",
             rotation=90, transform=ax.transData, clip_on=False)
 

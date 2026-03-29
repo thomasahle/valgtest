@@ -69,9 +69,11 @@ After varimax, we fix the two sign ambiguities using well-known anchor parties (
 
 ### 5. Question Loadings
 
-#### Dim 1 — Omfordeling / Klassisk venstre–højre
+#### Dim 1 — Solidarisk-progressiv ↔ Borgerlig-stram
 
-Top 10 questions by absolute loading on Dim 1 (positive = right-wing position):
+This is the classical *"old politics"* left–right axis: redistribution, state vs market, and collective vs individual provision. In Danish politics this axis also bundles immigration hardness tightly with economic conservatism — the two clusters are empirically inseparable among candidates.
+
+Top 10 questions by absolute loading on Dim 1 (negative = solidarisk-progressiv, positive = borgerlig-stram):
 
 | Loading | Topic | Question |
 |---:|---|---|
@@ -86,11 +88,13 @@ Top 10 questions by absolute loading on Dim 1 (positive = right-wing position):
 | +3.12 | Social | OK at ulighed stiger, så længe alle bliver rigere |
 | +3.04 | Skat | Selskabsskatten skal sænkes |
 
-As in the DR-only analysis, economic and immigration questions load at nearly identical magnitude and cannot be separated — 4 of the top 10 items are immigration or foreign-aid related. The combined model adds a new item from Altinget: corporate tax cuts (+3.04), which aligns with the existing right-wing economic cluster.
+4 of the top 10 items are immigration or foreign-aid related, loading at the same magnitude as the economic items. They cannot be separated by any orthogonal rotation: harder immigration stances and lower-tax preferences co-vary tightly on a single dimension among Danish candidates. The combined model also adds corporate tax cuts (+3.04) from Altinget, reinforcing the economic right cluster.
 
-#### Dim 2 — Reformisme / Populisme
+#### Dim 2 — Midterreformistisk ↔ Hverdagspopulistisk
 
-Top 10 questions by absolute loading on Dim 2, with Dim 1 loading for context (positive Dim 2 = populist):
+This is a *"new politics"* second axis, but not in the conventional GAL–TAN sense. Rather than separating green/libertarian from authoritarian/nationalist positions, it separates a **reform-and-pragmatism** orientation (raise the pension age, accept foreign labour, prefer centrist coalitions, fund Ukraine) from a **protection-and-protest** orientation (restore Store Bededag, shorten working hours, protect fuel prices, oppose pension reform). This maps onto the Danish distinction between a technocratic center bloc and a populist protest wing that spans both sides of Dim 1.
+
+Top 10 questions by absolute loading on Dim 2, with Dim 1 loading for context (negative = midterreformistisk, positive = hverdagspopulistisk):
 
 | Dim 2 | Dim 1 | Topic | Question |
 |---:|---:|---|---|
@@ -105,9 +109,7 @@ Top 10 questions by absolute loading on Dim 2, with Dim 1 loading for context (p
 | −1.09 | +3.12 | Social | OK at ulighed stiger, så længe alle bliver rigere |
 | +0.99 | −2.55 | Økonomi | Politikerne skal arbejde for at sætte arbejdstiden ned |
 
-The combined model strengthens the Dim 2 interpretation. Questions that primarily load on Dim 2 (small Dim 1): pension reform (−2.14), cross-party government (−1.72), Store Bededag (+1.57), Ukraine support (−1.26/+1.26), and a new Altinget item on self-funded eldercare (−1.42). High Dim 2 (top of plot) = populist: opposing pension reform, opposing cross-party government, supporting Ukraine criticism, wanting Store Bededag back. Low Dim 2 (bottom) = reformist: Moderaterne, Radikale, Liberal Alliance.
-
-Cross-loading items (large Dim 1 and moderate Dim 2): benzin (+2.77/+1.18), corporate tax (+3.04/−1.17), foreign labour (−1.31/−1.66). After controlling for Dim 1, supporting lower corporate tax and lower benzin taxes is associated with being more populist — consistent with those being DF/DDem positions as well as LA positions.
+Questions primarily on Dim 2 (small Dim 1): pension reform (−2.14), cross-party government (−1.72), Store Bededag (+1.57), self-funded eldercare (−1.42), Ukraine (+1.26). These are labour-supply and pragmatism questions, not immigration questions. Cross-loading items (benzin, corporate tax, foreign labour, working hours) reflect within-bloc splits after controlling for Dim 1.
 
 ## Reproducing
 
