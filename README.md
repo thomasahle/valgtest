@@ -81,9 +81,7 @@ Top 10 questions by absolute loading on Dim 1:
 | +3.11 | Skat | Skatten for de højeste indkomster skal sættes op |
 | −2.94 | Skole | Lettere at smide elever ud, hvis deres adfærd skaber problemer |
 
-The dominant questions are redistribution, public spending, and the role of the state: property tax on housing gains, public transport investment, welfare transfers, and income tax on the highest earners. This is a textbook economic left–right axis.
-
-Immigration questions (udvise kriminelle, bistand, statsborgerskab) also load strongly on Dim 1 — they are not separable from the economic axis by any orthogonal rotation. Danish immigration attitudes and economic attitudes are so correlated among candidates that they lie on the same dimension.
+The top 10 splits roughly evenly between economic questions (property tax, public transport, municipal equalisation, income tax) and immigration/cultural questions (deporting criminals, foreign aid, citizenship screening, school discipline). These two clusters load at nearly identical magnitude — 3 of the top 7 items are immigration-related. They cannot be separated by any orthogonal rotation, meaning that among Danish candidates, immigration attitudes and economic attitudes are so tightly correlated that they form a single dimension.
 
 #### Dim 2 — Reformisme / Populisme
 
